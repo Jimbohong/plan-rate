@@ -1,0 +1,67 @@
+article.proDetailBox.postpaid .leftColumn .tabs {
+  width: 100%;
+}
+article.proDetailBox.postpaid .leftColumn .tabsBox .partbox {
+  border: 0;
+  background-color: #F1F3F5;
+  margin: 12px 0 0 0;
+}
+article.proDetailBox.postpaid .leftColumn .tabsBox .partbox .unfoldBox {
+  background-color: #F1F3F5;
+  padding: 0 48px 0px 30px;
+  margin: 0;
+}
+article.proDetailBox.postpaid .leftColumn .tabsBox .partbox .unfoldBox p {
+  font-size: 18px;
+  color: #202020;
+}
+article.proDetailBox.postpaid .leftColumn .tabsBox .partbox .unfoldBox .unfold {
+  max-height: 0;
+  width: 100%;
+  position: relative;
+  overflow: scroll;
+}
+article.proDetailBox.postpaid .leftColumn .tabsBox .partbox .unfoldBox .unfold.on {
+  max-height: initial;
+  padding-bottom: 60px;
+}
+article.proDetailBox.postpaid .leftColumn .tabsBox .partbox .unfoldBox .unfold table tr td {
+  text-align: left;
+}
+article.proDetailBox.postpaid .leftColumn .tabsBox .partbox .unfoldBox .unfold table tr td * {
+  white-space: normal;
+}
+article.proDetailBox.postpaid .leftColumn .tabsBox .partbox .unfoldBox .unfold table tr:hover * {
+  color: #fff;
+}
+article.proDetailBox.postpaid .leftColumn .tabsBox .partbox .mainTitle {
+  padding: 30px 48px 24px 30px;
+  margin: 0;
+}
+article.proDetailBox.postpaid .leftColumn .tabsBox .partbox .mainTitle .close {
+  font-size: 0;
+  background-image: url("/resources/img/plus.svg");
+  transform: initial;
+  right: 48px;
+  top: 30px;
+}
+article.proDetailBox.postpaid .leftColumn .tabsBox .partbox .mainTitle .close.odd {
+  background-image: url("/resources/img/minus.svg");
+}
+article.proDetailBox.postpaid .leftColumn .tabsBox .partbox .mainTitle .subTitle {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+article.proDetailBox.postpaid .leftColumn .tabsBox .partbox .mainTitle .subTitle::after {
+  display: none;
+}
+article.proDetailBox.postpaid .leftColumn .tabsBox .partbox .open {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .wrapperPage section article.recommendBox .detailBoxBd .editBox table.posttable tr th, .wrapperPage section article.recommendBox .detailBoxBd .editBox table.posttable tr td {
+    white-space: nowrap;
+  }
+}

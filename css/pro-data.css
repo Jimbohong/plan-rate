@@ -1,0 +1,51 @@
+article.proDetailBox.postpaid .detailBoxHd {
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: none;
+  border: 0;
+}
+article.proDetailBox.postpaid .detailBoxHd .shareBox iframe.line-it-button {
+  margin-top: 0;
+  background-image: url("/resources/img/line-share.svg") !important;
+  background-size: contain;
+}
+article.proDetailBox.postpaid .detailBoxHd .shareBox a.facebook {
+  background-image: url("/resources/img/facebook-share.svg");
+  background-size: contain;
+}
+article.proDetailBox.postpaid .detailBoxHd .shareBox a.line[style] {
+  background-image: url("/resources/img/line-share.svg") !important;
+  background-size: contain;
+}
+article.proDetailBox.postpaid .detailBoxHd .shareBox .title {
+  font-size: 16px;
+  color: #202020;
+}
+article.proDetailBox.postpaid .detailBoxHd .albumsBox {
+  display: none;
+}
+article.proDetailBox.postpaid .detailBoxHd .albumsBox .photo {
+  width: auto;
+  display: flex;
+}
+article.proDetailBox.postpaid .detailBoxHd .albumsBox .photo img {
+  width: 100%;
+}
+article.proDetailBox.postpaid .detailBoxHd .detailBox {
+  padding: 0;
+  width: calc( 100% - 236px );
+  margin-bottom: 4px;
+  margin-top: 30px;
+}
+article.proDetailBox.postpaid .detailBoxHd .detailBox .text ol > li {
+  line-height: 1.78;
+}
+article.proDetailBox.postpaid .detailBoxHd .detailBox h3.font24b {
+  font-size: 36px !important;
+}
+
+@media screen and (max-width: 960px) {
+  article.proDetailBox.postpaid .detailBoxHd .detailBox {
+    width: 100%;
+  }
+}

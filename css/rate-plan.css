@@ -1,0 +1,1007 @@
+.wrapperPage section article.recommendBox {
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 0 6px 12px 0 rgba(75, 88, 105, 0.12);
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox {
+  padding: 0;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .detailBoxBd {
+  box-shadow: none;
+  background-color: initial;
+  padding: 0;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn {
+  width: calc( 100% - 236px );
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion {
+  padding: 0;
+  border: 0;
+  background-color: #F1F3F5;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .open {
+  display: none;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .mainTitle {
+  background-color: #F1F3F5;
+  border: 0;
+  box-shadow: none;
+  padding: 30px;
+  margin: 0;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .mainTitle .trigger {
+  right: 30px;
+  background-image: url("/resources/img/plus.svg");
+  transform: rotate(0);
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .mainTitle .odd {
+  background-image: url("/resources/img/minus.svg");
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .mainTitle a {
+  display: flex;
+  flex-direction: column;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .mainTitle a b {
+  color: #5f7b80;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 12px;
+  font-weight: 400;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .mainTitle a span {
+  border: 0;
+  font-size: 20px;
+  color: #202020;
+  padding: 0;
+  line-height: 1.78;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .schinner {
+  overflow: scroll;
+  margin: 0 30px 30px 30px;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .schinner table {
+  border: 2px solid #E8ECF0;
+  font-size: 16px;
+  width: 100% !important;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .schinner table strong {
+  color: #5f6e84;
+  font-size: 16px;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .schinner table td {
+  font-size: 16px;
+  vertical-align: middle;
+  padding: 12px;
+  color: #5f6e84;
+  background-color: #fff;
+  border: 2px solid #e8ecf0;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .schinner table tr:nth-child(2n) td {
+  background-color: #fff;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .schinner .descbox {
+  margin-bottom: 30px;
+  background-color: #fafafa;
+  color: #5f6e84;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .schinner .descbox li {
+  color: #5f6e84;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .schinner .descbox .mainTitle {
+  background: initial;
+  color: #5f6e84;
+  padding-left: 0;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .sidebar {
+  width: 220px;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .sidebar .box {
+  background-image: url("/resources/img/result.svg");
+  padding: 30px 20px;
+  border: 0;
+  text-align: left;
+  box-shadow: none;
+  background-size: contain;
+  background-position: right bottom;
+  background-color: #EFF4F1;
+  background-repeat: no-repeat;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .sidebar .box .mainTitle {
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .sidebar .box .mainTitle::before {
+  content: "";
+  background-image: url("/resources/img/calculator.svg");
+  width: 30px;
+  height: 30px;
+  position: relative;
+  margin-bottom: 12px;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .sidebar .box .mainTitle img {
+  display: none;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .sidebar .box p {
+  font-size: 16px;
+  color: #202020;
+  margin-bottom: 30px;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .sidebar .box a {
+  font-size: 16px;
+  padding: 12px;
+  background: initial;
+  color: #202020;
+  height: auto;
+  border: 2px solid #202020;
+  font-weight: 500;
+  line-height: initial;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .sidebar .box a img {
+  display: none;
+}
+.wrapperPage section article.recommendBox .tabPagerBox {
+  margin: 36px 0 60px 0;
+}
+.wrapperPage section article.recommendBox .tabPagerBox .tab-pager a {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.wrapperPage section article.recommendBox .tabPagerBox .tab-pager a:hover {
+  color: #202020;
+}
+.wrapperPage section article.recommendBox .tabPagerBox .tab-pager li {
+  margin: 0 12px;
+}
+.wrapperPage section article.recommendBox .tabPagerBox .tab-pager li.next a, .wrapperPage section article.recommendBox .tabPagerBox .tab-pager li.prev a, .wrapperPage section article.recommendBox .tabPagerBox .tab-pager li.last a, .wrapperPage section article.recommendBox .tabPagerBox .tab-pager li.first a {
+  filter: brightness(0);
+}
+.wrapperPage section article.recommendBox .tabPagerBox .tab-pager li.next a:hover, .wrapperPage section article.recommendBox .tabPagerBox .tab-pager li.prev a:hover, .wrapperPage section article.recommendBox .tabPagerBox .tab-pager li.last a:hover, .wrapperPage section article.recommendBox .tabPagerBox .tab-pager li.first a:hover {
+  filter: brightness(1);
+}
+.wrapperPage section article.recommendBox .tabPagerBox .tab-pager li.disabled {
+  opacity: 0.3;
+}
+.wrapperPage section article.recommendBox .tabPagerBox .tab-pager li.disabled a {
+  color: #d6d6d6;
+  pointer-events: none;
+}
+.wrapperPage section article.recommendBox .tabPagerBox .tab-pager li.active a {
+  background-color: #6a798e;
+  color: #fff;
+}
+.wrapperPage section article.recommendBox .tabPagerBox .tab-pager .goTo {
+  display: none;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox {
+  overflow: scroll;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox a::after {
+  display: none !important;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox a:hover {
+  transition: color 0.3s ease-in;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox a:hover::after {
+  display: none !important;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox * {
+  font-size: 16px;
+  line-height: 1.75;
+  white-space: normal;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox table tbody tr:hover td {
+  background-color: initial;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox table tbody tr:hover td:hover {
+  tr: nth-child(3n) td;
+  tr-background: #f1f3f5;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox table tbody tr:nth-child(1) th {
+  background: #f1f3f5;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox table tbody tr:nth-child(1) th:nth-child(1) {
+  background-color: initial;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox table.posttable tr th, .wrapperPage section article.recommendBox .detailBoxBd .editBox table.posttable tr td {
+  color: #5f6e84;
+  background-color: initial;
+  border: 2px solid #e8ecf0;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox table.posttable tr th span, .wrapperPage section article.recommendBox .detailBoxBd .editBox table.posttable tr td span {
+  color: #5f6e84;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox table.posttable tr th strong, .wrapperPage section article.recommendBox .detailBoxBd .editBox table.posttable tr td strong {
+  color: #202020;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox table.posttable tr:hover td {
+  color: #5f6e84;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox table.posttable td.hd {
+  background: initial;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox .btnDownBox .box {
+  float: left;
+  margin: 0;
+  border: 0;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox .btnDownBox .box a.button {
+  color: #202020;
+  text-align: left;
+  background-color: initial;
+  border: 0;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox .btnDownBox .box a.button::before {
+  content: "";
+  background: url(https://www.fetnet.net/images/icon/icon_pagerPrev.png) no-repeat center;
+  height: 20px;
+  filter: brightness(0);
+  display: inline-block;
+  background-size: contain;
+  width: 20px;
+  margin-right: 6px;
+}
+
+@media screen and (max-width: 960px) {
+  .wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn {
+    width: 100%;
+  }
+  .wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .mainTitle.schBoxHd span {
+    padding-right: 30px;
+  }
+  .wrapperPage section article.recommendBox .tabs article.proDetailBox .sidebar {
+    width: 100%;
+  }
+
+  .wrapperPage section article.recommendBox .detailBoxBd .editBox table {
+    white-space: nowrap;
+  }
+}
+.detailBoxBd .editBox.leftColumn {
+  width: 100%;
+  overflow: scroll;
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 960px) {
+  article.proDetailBox.postpaid .leftColumn .tabsBox {
+    overflow: scroll;
+  }
+}
+article.recommendBox .detailBoxBd .mainTitle {
+  margin-bottom: 12px;
+}
+article.recommendBox .detailBoxBd .mainTitle .selectCoupon {
+  margin-left: 40px;
+}
+article.recommendBox .detailBoxBd .mainTitle .selectCoupon .selectboxit {
+  height: auto;
+  padding: 6px 0 6px 12px;
+}
+article.recommendBox .detailBoxBd .mainTitle .selectCoupon .selectboxit i {
+  display: none;
+}
+article.recommendBox .detailBoxBd .mainTitle .selectCoupon .selectboxit-container {
+  border-color: #e8ecf0;
+  border: 2px solid #e8ecf0;
+}
+article.recommendBox .detailBoxBd .mainTitle .selectCoupon .selectboxit-container span {
+  font-size: 16px;
+  height: auto;
+}
+article.recommendBox .detailBoxBd .mainTitle .selectCoupon .selectboxit-container .selectboxit-arrow-container {
+  height: 30px;
+  background-image: url("/resources/img/arrow-down.svg");
+  background-size: auto;
+  margin-right: 12px;
+}
+article.recommendBox .detailBoxBd .mainTitle .selectCoupon .selectboxit-container .selectboxit-focus a {
+  background-color: #e8ecf0;
+}
+article.recommendBox .detailBoxBd .mainTitle .selectCoupon .selectboxit-container .selectboxit-options {
+  outline: 2px solid #e8ecf0;
+  border: 0;
+  box-shadow: 0 18px 36px 0 rgba(75, 88, 105, 0.18);
+}
+article.recommendBox .detailBoxBd .mainTitle .selectCoupon .selectboxit-container .selectboxit-options li.selectboxit-option {
+  height: auto;
+}
+article.recommendBox .detailBoxBd .mainTitle .selectCoupon .selectboxit-container .selectboxit-options li.selectboxit-option i {
+  display: none;
+}
+article.recommendBox .detailBoxBd .mainTitle .selectCoupon .selectboxit-container .selectboxit-options li.selectboxit-option a.selectboxit-option-anchor {
+  font-size: 16px;
+  padding: 8px 18px;
+  height: auto;
+}
+
+article.proDetailBox.postpaid .leftColumn .tabs {
+  width: 100%;
+}
+article.proDetailBox.postpaid .leftColumn .tabsBox .partbox {
+  border: 0;
+  background-color: #F1F3F5;
+  margin: 12px 0 0 0;
+}
+article.proDetailBox.postpaid .leftColumn .tabsBox .partbox .unfoldBox {
+  background-color: #F1F3F5;
+  padding: 0 48px 0px 30px;
+  margin: 0;
+}
+article.proDetailBox.postpaid .leftColumn .tabsBox .partbox .unfoldBox p {
+  font-size: 18px;
+  color: #202020;
+}
+article.proDetailBox.postpaid .leftColumn .tabsBox .partbox .unfoldBox .unfold {
+  max-height: 0;
+  width: 100%;
+  position: relative;
+  overflow: scroll;
+}
+article.proDetailBox.postpaid .leftColumn .tabsBox .partbox .unfoldBox .unfold.on {
+  max-height: initial;
+  padding-bottom: 60px;
+}
+article.proDetailBox.postpaid .leftColumn .tabsBox .partbox .unfoldBox .unfold table tr td {
+  text-align: left;
+}
+article.proDetailBox.postpaid .leftColumn .tabsBox .partbox .unfoldBox .unfold table tr td * {
+  white-space: normal;
+}
+article.proDetailBox.postpaid .leftColumn .tabsBox .partbox .unfoldBox .unfold table tr:hover * {
+  color: #fff;
+}
+article.proDetailBox.postpaid .leftColumn .tabsBox .partbox .mainTitle {
+  padding: 30px 48px 24px 30px;
+  margin: 0;
+}
+article.proDetailBox.postpaid .leftColumn .tabsBox .partbox .mainTitle .close {
+  font-size: 0;
+  background-image: url("/resources/img/plus.svg");
+  transform: initial;
+  right: 48px;
+  top: 30px;
+}
+article.proDetailBox.postpaid .leftColumn .tabsBox .partbox .mainTitle .close.odd {
+  background-image: url("/resources/img/minus.svg");
+}
+article.proDetailBox.postpaid .leftColumn .tabsBox .partbox .mainTitle .subTitle {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+article.proDetailBox.postpaid .leftColumn .tabsBox .partbox .mainTitle .subTitle::after {
+  display: none;
+}
+article.proDetailBox.postpaid .leftColumn .tabsBox .partbox .open {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .wrapperPage section article.recommendBox .detailBoxBd .editBox table.posttable tr th, .wrapperPage section article.recommendBox .detailBoxBd .editBox table.posttable tr td {
+    white-space: nowrap;
+  }
+}
+article .tabs ul.ui-tabs-nav {
+  border-bottom: 6px solid #d6d6d6;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+article .tabs ul.ui-tabs-nav li {
+  text-align: center;
+  width: 100%;
+}
+article .tabs ul.ui-tabs-nav li a {
+  border: 0;
+}
+article .tabs ul.ui-tabs-nav li.ui-state-active {
+  border-bottom: 6px solid #ef3123;
+  margin-bottom: -6px;
+}
+article .tabs ul.ui-tabs-nav li.ui-state-active::after {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  article .tabs ul.ui-tabs-nav {
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+    white-space: nowrap;
+    border: 0;
+    padding-bottom: 12px;
+    justify-content: space-evenly;
+  }
+  article .tabs ul.ui-tabs-nav li.ui-state-active {
+    border-bottom: 6px solid #ef3123;
+    margin-bottom: 0;
+  }
+  article .tabs ul.ui-tabs-nav li {
+    width: 100%;
+    border-bottom: 6px solid #d6d6d6;
+    margin: 0;
+  }
+
+  article.proDetailBox.postpaid .leftColumn .tabsBox .partbox .mainTitle .close {
+    right: 15px;
+  }
+}
+article.proDetailBox.postpaid .detailBoxHd {
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: none;
+  border: 0;
+}
+article.proDetailBox.postpaid .detailBoxHd .shareBox iframe.line-it-button {
+  margin-top: 0;
+  background-image: url("/resources/img/line-share.svg") !important;
+  background-size: contain;
+}
+article.proDetailBox.postpaid .detailBoxHd .shareBox a.facebook {
+  background-image: url("/resources/img/facebook-share.svg");
+  background-size: contain;
+}
+article.proDetailBox.postpaid .detailBoxHd .shareBox a.line[style] {
+  background-image: url("/resources/img/line-share.svg") !important;
+  background-size: contain;
+}
+article.proDetailBox.postpaid .detailBoxHd .shareBox .title {
+  font-size: 16px;
+  color: #202020;
+}
+article.proDetailBox.postpaid .detailBoxHd .albumsBox {
+  display: none;
+}
+article.proDetailBox.postpaid .detailBoxHd .albumsBox .photo {
+  width: auto;
+  display: flex;
+}
+article.proDetailBox.postpaid .detailBoxHd .albumsBox .photo img {
+  width: 100%;
+}
+article.proDetailBox.postpaid .detailBoxHd .detailBox {
+  padding: 0;
+  width: calc( 100% - 236px );
+  margin-bottom: 4px;
+  margin-top: 30px;
+}
+article.proDetailBox.postpaid .detailBoxHd .detailBox .text ol > li {
+  line-height: 1.78;
+}
+article.proDetailBox.postpaid .detailBoxHd .detailBox h3.font24b {
+  font-size: 36px !important;
+}
+
+@media screen and (max-width: 960px) {
+  article.proDetailBox.postpaid .detailBoxHd .detailBox {
+    width: 100%;
+  }
+}
+html {
+  font-size: 100%;
+}
+
+body iframe {
+  height: calc( 100vh + 1.125rem );
+  margin-top: -1.125rem;
+}
+
+#wrapper {
+  min-width: initial;
+  width: 100%;
+}
+#wrapper section {
+  overflow: scroll;
+  min-width: initial;
+}
+
+.main.even.min {
+  display: none !important;
+}
+
+article.crumbBox {
+  z-index: 1;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  background: none;
+  padding-top: 100px;
+  padding-left: 0;
+}
+article.crumbBox .mainBox {
+  color: #202020;
+  margin-left: 0;
+}
+article.crumbBox .mainBox a {
+  font-size: 14px;
+  color: #202020;
+  margin: 0 0.75rem;
+  font-weight: 500;
+}
+article.crumbBox .mainBox a:nth-of-type(1) {
+  margin-left: 0;
+}
+article.crumbBox .mainBox h1.mainHead {
+  font-size: 14px;
+  color: #202020;
+  margin-left: 0.75rem;
+  font-weight: 600;
+  line-height: initial;
+}
+
+iframe[src*='otherservice.html'] ~ .wrapperPage {
+  background: red;
+}
+
+.wrapperPage section .main.top10downNo {
+  margin-top: 1.5rem;
+  padding: 0;
+}
+.wrapperPage section .main.top10downNo .tabs.unit ul#lv3TabDiv {
+  border-bottom: 0;
+  margin: 0;
+}
+.wrapperPage section .main.top10downNo .tabs.unit ul#lv3TabDiv li {
+  margin-top: 2.25rem;
+  display: none;
+}
+.wrapperPage section .main.top10downNo .tabs.unit ul#lv3TabDiv li a {
+  font-size: 0.875rem;
+  color: #fff;
+}
+.wrapperPage section .main.top10downNo .subtab {
+  display: none;
+}
+.wrapperPage section .main.top10downNo .leftColumn .subtab {
+  display: block;
+}
+.wrapperPage section .main.top10downNo article.ratePlanHd {
+  margin: 0;
+  width: 100%;
+}
+.wrapperPage section .main.top10downNo article.ratePlanHd .mainBox {
+  text-align: left;
+  margin: 0;
+  left: 0px;
+  width: 100%;
+  top: 84px;
+}
+.wrapperPage section .main.top10downNo article.ratePlanHd .mainBox .mainTitle {
+  color: #fff;
+  font-size: 2.625rem;
+  margin-bottom: 1.75rem;
+  margin-left: 1.875rem;
+}
+.wrapperPage section .main.top10downNo article.ratePlanHd .mainBox .text {
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-left: 1.875rem;
+  margin-bottom: 112px;
+}
+.wrapperPage section .main.top10downNo article.ratePlanHd .mainBox .start {
+  margin-bottom: 1.125rem;
+}
+.wrapperPage section .main.top10downNo article.ratePlanHd .mainBox .start span {
+  color: #202020;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border: 0;
+}
+.wrapperPage section .main.top10downNo article.ratePlanHd .mainBox .start span::after {
+  display: none;
+}
+.wrapperPage section .main.top10downNo article.ratePlanHd .kvComplex {
+  overflow: hidden;
+  height: 240px;
+  width: 100%;
+  filter: brightness(0.7);
+}
+.wrapperPage section .main.top10downNo article.ratePlanHd .kvComplex img {
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 50%;
+  top: 50%;
+}
+.wrapperPage section .main.top10downNo article.ratePlanHd {
+  margin-bottom: 1.125rem;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd {
+  margin-top: 118px;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd ul.rateItem {
+  width: 100%;
+  display: flex;
+  margin-bottom: 3rem;
+  border: 0;
+  justify-content: flex-start;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd ul.rateItem:nth-last-child(1) {
+  margin-right: 0;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd ul.rateItem li {
+  width: 32.6%;
+  border: solid 2px #f05c38 !important;
+  margin: 0 12px 0 0;
+  height: auto;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd ul.rateItem li a.ui-tabs-anchor {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd ul.rateItem li a.ui-tabs-anchor span.hover {
+  display: none;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd ul.rateItem li a.ui-tabs-anchor span.text {
+  color: #f05c38;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd ul.rateItem li a.ui-tabs-anchor::after {
+  content: "";
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd ul.rateItem li::after {
+  display: none;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .ratePlanBox {
+  margin-bottom: 3.375rem;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .ratePlanBox .mainTitle {
+  background-color: initial;
+  font-weight: 600;
+  height: 3.125rem;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .ratePlanBox .number {
+  display: none;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .ratePlanBox .boxComplex {
+  border: 2px solid #e8ecf0 !important;
+  box-shadow: none;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .ratePlanBox .boxComplex::after {
+  position: absolute;
+  top: 0.75rem;
+  left: 6px;
+  content: "";
+  height: 1.875rem;
+  width: 1.875rem;
+  border-radius: 50%;
+  border: 1px solid #e8ecf0;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .ratePlanBox ul#answerList {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .ratePlanBox ul#answerList .boxComplex {
+  margin: 0;
+  padding: 1.625rem 3.75rem;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .ratePlanBox ul#answerList li {
+  margin: 0 0.75rem 0.75rem 0;
+  width: calc( (100% - 24px)/3 );
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .ratePlanBox ul#answerList li:nth-child(3n) {
+  margin-right: 0;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .ratePlanBox ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .ratePlanBox ul li {
+  width: calc( (100% - 24px)/3 );
+  margin-right: 0.75rem;
+  margin-bottom: 0.75rem;
+  display: flex;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .ratePlanBox ul li:nth-last-child(1) {
+  margin-right: 0;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .ratePlanBox ul li .boxComplex {
+  margin: 0.5rem 0 0 0;
+  padding: 1.625rem 3.75rem;
+  height: auto;
+  width: 100%;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .ratePlanBox ul li .vertical {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .ratePlanBox ul li .vertical p {
+  font-size: 1rem;
+  color: #5f6e84;
+  font-weight: 500;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .ratePlanBox ul li.active .boxComplex {
+  box-shadow: none;
+  border: 2px solid #f05c38 !important;
+  padding: 1.5rem 3.75rem;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .ratePlanBox ul li.active .boxComplex p {
+  color: #f05c38;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .ratePlanBox ul li.active .boxComplex::before {
+  border: 1px solid #f05c38;
+  width: 1.875rem;
+  height: 1.875rem;
+  background: #f05c38;
+  left: 6px;
+  top: 12px;
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .ratePlanBox ul li.active .boxComplex::after {
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  left: 16px;
+  top: 22px;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .resultBox {
+  border: none;
+  box-shadow: 0 6px 12px 0 rgba(75, 88, 105, 0.12);
+  margin-top: 5.625rem;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .resultBox .leftColumn {
+  background-image: url("/resources/img/result.svg");
+  background-position: right bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #EFF4F1;
+  height: 386px;
+  min-height: initial;
+  width: 35%;
+  padding: 60px 30px 40px 30px;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .resultBox .leftColumn .mainTitle {
+  font-weight: 500;
+  background-image: url("/resources/img/calculator.svg");
+  padding: 42px 0 0 0;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .resultBox .leftColumn .text {
+  font-size: 1rem;
+  padding: 0 30px 0 0;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .resultBox .leftColumn .text::before, .wrapperPage section .main.top10downNo article.ratePlanBd .resultBox .leftColumn .text::after {
+  display: none;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .resultBox .rightColumn {
+  height: 386px;
+  min-height: initial;
+  width: 65%;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .resultBox .rightColumn .subTitle {
+  font-size: 1.25rem;
+  color: #202020;
+  font-weight: 600;
+  margin-bottom: 1.75rem;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .resultBox .rightColumn .mainTitle {
+  font-size: 36px !important;
+  color: #f05c38 !important;
+  margin-bottom: 1.625rem !important;
+  text-decoration: none;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .resultBox .rightColumn .text {
+  font-size: 1rem;
+  border-bottom: 0;
+  color: #202020;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .resultBox .rightColumn .btnDownBox {
+  display: flex;
+  margin: 3.375rem 0 0 0;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .resultBox .rightColumn .btnDownBox .box {
+  order: 1;
+  margin: 0 0.75rem 0 0;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .resultBox .rightColumn .btnDownBox .box a {
+  background-color: #fff;
+  color: #202020;
+  border: 0;
+  height: 40px;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .resultBox .rightColumn .btnDownBox .box a.reSet {
+  outline: #202020 solid 2px;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .resultBox .rightColumn .btnDownBox .box:nth-last-child(1) {
+  order: 0;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .resultBox .rightColumn .btnDownBox .box:nth-last-child(1) a.button {
+  background-color: #d3060f;
+  color: #fff;
+  border: initial;
+}
+.wrapperPage section .main.top10downNo article.ratePlanBd .resultBox .rightColumn .desc {
+  text-align: left;
+  left: 2.625rem;
+}
+.wrapperPage section .main.top10downNo .detailBoxBd .descbox {
+  margin-top: 24px;
+  background-color: #fafafa;
+  border: none;
+  padding: 3.75rem;
+}
+.wrapperPage section .main.top10downNo .detailBoxBd .descbox .mainTitle {
+  font-size: 1rem;
+  color: #5f6e84;
+  margin-bottom: 1.875rem;
+  border: 0;
+}
+.wrapperPage section .main.top10downNo .detailBoxBd .descbox .mainTitle .close {
+  font-size: 0;
+  background-image: url("/resources/img/plus.svg");
+  transform: initial;
+  right: 48px;
+  top: 30px;
+}
+.wrapperPage section .main.top10downNo .detailBoxBd .descbox .mainTitle .close.odd {
+  background-image: url("/resources/img/minus.svg");
+}
+.wrapperPage section .main.top10downNo .detailBoxBd .descbox #descOpen_1 {
+  display: none;
+}
+.wrapperPage section .main.top10downNo .detailBoxBd .descbox .open {
+  font-size: 0;
+}
+.wrapperPage section .main.top10downNo .detailBoxBd .descbox .unfold {
+  max-height: 76px;
+}
+.wrapperPage section .main.top10downNo .detailBoxBd .descbox .unfold ol li {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: #5f6e84;
+}
+.wrapperPage section .main.top10downNo .detailBoxBd .descbox .unfold.on {
+  max-height: initial;
+  padding-bottom: 60px;
+}
+.wrapperPage section .main.top10downNo a.open {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .wrapperPage section article.crumbBox {
+    display: none;
+  }
+  .wrapperPage section .main.top10downNo {
+    margin-top: 58px;
+  }
+  .wrapperPage section .main.top10downNo article.ratePlanHd {
+    padding: 1.875rem 0px;
+    width: auto;
+    height: auto;
+  }
+  .wrapperPage section .main.top10downNo article.ratePlanHd .mainBox {
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: auto;
+    position: relative;
+  }
+  .wrapperPage section .main.top10downNo article.ratePlanHd .mainBox .mainTitle {
+    font-size: 32px;
+    margin-left: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: 0;
+  }
+  .wrapperPage section .main.top10downNo article.ratePlanHd .mainBox .text {
+    margin-left: 1.25rem;
+    margin-bottom: 96px;
+  }
+  .wrapperPage section .main.top10downNo article.ratePlanHd .mainBox .start {
+    margin-left: 1.25rem;
+    padding-top: 48px;
+  }
+  .wrapperPage section .main.top10downNo article.ratePlanBd {
+    padding: 1rem;
+    margin-top: 88px;
+  }
+  .wrapperPage section .main.top10downNo article.ratePlanBd ul.rateItem li {
+    width: calc( (100% - 12px)/2 ) !important;
+    margin: 0px 0.75rem 0.75rem 0 !important;
+  }
+  .wrapperPage section .main.top10downNo article.ratePlanBd .ratePlanBox ul li .boxComplex {
+    padding: 0.75rem 0.875rem 0.75rem 2.625rem !important;
+    min-height: 76px;
+  }
+  .wrapperPage section .main.top10downNo article.ratePlanBd .ratePlanBox ul li .boxComplex .vertical p {
+    width: 100%;
+    text-align: left;
+  }
+  .wrapperPage section .main.top10downNo article.ratePlanBd .ratePlanBox {
+    width: 100%;
+    margin-bottom: 36px;
+  }
+  .wrapperPage section .main.top10downNo article.ratePlanBd .ratePlanBox .text {
+    min-height: initial;
+  }
+  .wrapperPage section .main.top10downNo article.ratePlanBd .ratePlanBox ul#answerList .boxComplex {
+    padding: 0.75rem 0.875rem 0.75rem 2.625rem;
+    display: flex;
+    min-height: 76px;
+  }
+  .wrapperPage section .main.top10downNo article.ratePlanBd .ratePlanBox ul li {
+    width: calc( (100% - 12px)/2 ) !important;
+    margin: 0px 0.75rem 0.75rem 0 !important;
+  }
+  .wrapperPage section .main.top10downNo article.ratePlanBd .ratePlanBox ul li .boxComplex {
+    padding: 0.75rem 0.875rem 0.75rem 2.625rem !important;
+  }
+  .wrapperPage section .main.top10downNo article.ratePlanBd .ratePlanBox ul li .boxComplex .vertical {
+    text-align: left;
+  }
+  .wrapperPage section .main.top10downNo article.ratePlanBd .ratePlanBox ul li .boxComplex .vertical p {
+    width: 100%;
+  }
+  .wrapperPage section .main.top10downNo article.ratePlanBd .ratePlanBox ul li:nth-child(2n) {
+    margin-right: 0 !important;
+  }
+  .wrapperPage section .main.top10downNo article.ratePlanBd .ratePlanBox ul li:nth-child(3n) {
+    margin-right: 12px;
+  }
+  .wrapperPage section ul#answerList {
+    flex-wrap: wrap;
+  }
+  .wrapperPage section ul#answerList li:nth-child(2n) {
+    margin-right: 0 !important;
+  }
+  .wrapperPage section ul#answerList li .boxComplex {
+    padding: 0.75rem 0.875rem 0.75rem 2.625rem !important;
+    display: flex;
+    min-height: 76px;
+  }
+  .wrapperPage section .main.top10downNo article.ratePlanBd .resultBox {
+    margin-top: 0;
+  }
+  .wrapperPage section .main.top10downNo article.ratePlanBd .resultBox .leftColumn {
+    width: 100%;
+    height: auto !important;
+  }
+  .wrapperPage section .main.top10downNo article.ratePlanBd .resultBox .leftColumn .text {
+    min-height: initial;
+  }
+  .wrapperPage section .main.top10downNo article.ratePlanBd .resultBox .rightColumn {
+    width: 100%;
+    height: auto;
+    padding: 1.875rem 1.25rem;
+    box-shadow: 0 6px 0.75rem 0 rgba(75, 88, 105, 0.12);
+  }
+  .wrapperPage section .main.top10downNo article.ratePlanBd .resultBox .rightColumn .mainTitle[style] {
+    font-size: 1.25rem;
+  }
+  .wrapperPage section .main.top10downNo article.ratePlanBd .resultBox .rightColumn .btnDownBox {
+    margin-top: 10px;
+    margin-bottom: 3.75rem;
+  }
+  .wrapperPage section .main.top10downNo article.ratePlanBd .resultBox .rightColumn .desc {
+    position: relative;
+    left: 0;
+  }
+  .wrapperPage section .main.top10downNo .detailBoxBd .descbox {
+    margin-top: 3.75rem;
+    padding: 1.875rem 1.875rem 3.75rem 1.875rem;
+  }
+  .wrapperPage .unfold ol li {
+    white-space: initial;
+  }
+
+  article.proDetailBox.postpaid .detailBoxHd .detailBox {
+    width: 100%;
+  }
+}
