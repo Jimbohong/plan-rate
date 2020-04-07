@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="1906" viewBox="0 0 1440 1906">
+    <defs>
+        <path id="prefix__a" d="M0 0H1440V2000H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="matrix(-1 0 0 1 1440 -67)">
+        <mask id="prefix__b" fill="#fff">
+            <use xlink:href="#prefix__a"/>
+        </mask>
+        <path fill="#F3DA63" d="M839.5 67L839.5 101.982 915.5 157 915.5 121.962z" mask="url(#prefix__b)"/>
+        <path fill="#9EDFE9" fill-rule="nonzero" d="M47 236L47 311.4 -5 273.7z" mask="url(#prefix__b)" transform="rotate(90 21 273.7)"/>
+        <path fill="#FFA188" fill-rule="nonzero" d="M179.983 101L179.983 132 158.983 116.5z" mask="url(#prefix__b)" transform="rotate(90 169.483 116.5)"/>
+        <path fill="#FFA188" fill-rule="nonzero" d="M1395 500L1395 520.601 1440 553 1440 532.366z" mask="url(#prefix__b)" transform="matrix(-1 0 0 1 2835 0)"/>
+        <path fill="#9EDFE9" d="M1285 1186L1285 1229.534 1380 1298 1380 1254.397z" mask="url(#prefix__b)"/>
+        <path fill="#EA574D" d="M-6 967L-6 1005.992 79 1067.315 79 1028.261zM1397 1679L1397 1717.992 1482 1779.315 1482 1740.261z" mask="url(#prefix__b)"/>
+        <path fill="#FCDC6D" d="M72 1518.932L72 1542.695 124 1580.068 124 1556.267z" mask="url(#prefix__b)" transform="matrix(-1 0 0 1 196 0)"/>
+        <path fill="#9EDFE9" d="M1028 764L1028 823 987 793.5z" mask="url(#prefix__b)" transform="matrix(-1 0 0 1 2015 0)"/>
+        <path fill="#FFA188" fill-rule="nonzero" d="M331 1924L331 1982 291 1953z" mask="url(#prefix__b)" transform="rotate(90 311 1953)"/>
+    </g>
+</svg>
