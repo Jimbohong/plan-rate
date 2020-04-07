@@ -21,7 +21,7 @@ article.recommendBox .detailBoxBd .mainTitle .selectCoupon .selectboxit-containe
 }
 article.recommendBox .detailBoxBd .mainTitle .selectCoupon .selectboxit-container .selectboxit-arrow-container {
   height: 30px;
-  background-image: url("../resources/img/arrow-down.svg");
+  background-image: url("/resources/img/arrow-down.svg");
   background-size: auto;
   margin-right: 12px;
 }

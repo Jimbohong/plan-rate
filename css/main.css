@@ -17365,11 +17365,12 @@ article.proDetailBox.postpaid .leftColumn .tabs {
 }
 article.proDetailBox.postpaid .leftColumn .tabsBox .partbox {
   border: 0;
-  background-color: #F1F3F5;
+  background-color: #fff;
+  border: 2px solid #e8ecf0;
   margin: 12px 0 0 0;
 }
 article.proDetailBox.postpaid .leftColumn .tabsBox .partbox .unfoldBox {
-  background-color: #F1F3F5;
+  background-color: #fff;
   padding: 0 48px 0px 30px;
   margin: 0;
 }
@@ -17472,6 +17473,24 @@ article .tabs ul.ui-tabs-nav li.ui-state-active::after {
     right: 15px;
   }
 }
+.shareBox iframe.line-it-button {
+  margin-top: 0;
+  background-image: url("../resources/img/line-share.svg") !important;
+  background-size: contain !important;
+}
+.shareBox a.facebook {
+  background-image: url("../resources/img/facebook-share.svg") !important;
+  background-size: contain !important;
+}
+.shareBox a.line[style] {
+  background-image: url("../resources/img/line-share.svg") !important;
+  background-size: contain !important;
+}
+.shareBox .title {
+  font-size: 16px;
+  color: #202020;
+}
+
 article.proDetailBox.postpaid .detailBoxHd {
   display: flex;
   flex-wrap: wrap;
@@ -17597,14 +17616,6 @@ iframe[src*='otherservice.html'] ~ .wrapperPage {
 }
 .wrapperPage section .main.top10downNo .subtab {
   display: none;
-}
-.wrapperPage section .main.top10downNo .leftColumn::-webkit-scrollbar {
-  width: 0;
-  background: transparent;
-  overflow: scroll;
-}
-.wrapperPage section .main.top10downNo .leftColumn::-webkit-scrollbar-thumb {
-  background: #e8ecf0;
 }
 .wrapperPage section .main.top10downNo .leftColumn .subtab {
   display: block;
@@ -17836,7 +17847,7 @@ iframe[src*='otherservice.html'] ~ .wrapperPage {
   font-weight: 600;
   margin-bottom: 1.75rem;
 }
-.wrapperPage section .main.top10downNo article.ratePlanBd .resultBox .rightColumn .mainTitle {
+.wrapperPage section .main.top10downNo article.ratePlanBd .resultBox .rightColumn .mainTitle a {
   font-size: 36px !important;
   color: #f05c38 !important;
   margin-bottom: 1.625rem !important;
@@ -17875,49 +17886,6 @@ iframe[src*='otherservice.html'] ~ .wrapperPage {
 .wrapperPage section .main.top10downNo article.ratePlanBd .resultBox .rightColumn .desc {
   text-align: left;
   left: 2.625rem;
-}
-.wrapperPage section .main.top10downNo .detailBoxBd .descbox {
-  margin-top: 24px;
-  background-color: #fafafa;
-  border: none;
-  padding: 3.75rem;
-}
-.wrapperPage section .main.top10downNo .detailBoxBd .descbox .mainTitle {
-  font-size: 1rem;
-  color: #5f6e84;
-  margin-bottom: 1.875rem;
-  border: 0;
-}
-.wrapperPage section .main.top10downNo .detailBoxBd .descbox .mainTitle .close {
-  font-size: 0;
-  background-image: url("../resources/img/plus.svg");
-  transform: initial;
-  right: 48px;
-  top: 30px;
-}
-.wrapperPage section .main.top10downNo .detailBoxBd .descbox .mainTitle .close.odd {
-  background-image: url("../resources/img/minus.svg");
-}
-.wrapperPage section .main.top10downNo .detailBoxBd .descbox #descOpen_1 {
-  display: none;
-}
-.wrapperPage section .main.top10downNo .detailBoxBd .descbox .open {
-  font-size: 0;
-}
-.wrapperPage section .main.top10downNo .detailBoxBd .descbox .unfold {
-  max-height: 76px;
-}
-.wrapperPage section .main.top10downNo .detailBoxBd .descbox .unfold ol li {
-  font-size: 0.875rem;
-  line-height: 1.5rem;
-  color: #5f6e84;
-}
-.wrapperPage section .main.top10downNo .detailBoxBd .descbox .unfold.on {
-  max-height: initial;
-  padding-bottom: 60px;
-}
-.wrapperPage section .main.top10downNo a.open {
-  display: none;
 }
 
 @media screen and (max-width: 960px) {
@@ -18011,30 +17979,30 @@ iframe[src*='otherservice.html'] ~ .wrapperPage {
     display: flex;
     min-height: 76px;
   }
-  .wrapperPage section .main.top10downNo article.ratePlanBd .resultBox {
+  .wrapperPage section .main.top10downNo .tabs.unit article.ratePlanBd .resultBox {
     margin-top: 0;
   }
-  .wrapperPage section .main.top10downNo article.ratePlanBd .resultBox .leftColumn {
+  .wrapperPage section .main.top10downNo .tabs.unit article.ratePlanBd .resultBox .leftColumn {
     width: 100%;
     height: auto !important;
   }
-  .wrapperPage section .main.top10downNo article.ratePlanBd .resultBox .leftColumn .text {
+  .wrapperPage section .main.top10downNo .tabs.unit article.ratePlanBd .resultBox .leftColumn .text {
     min-height: initial;
   }
-  .wrapperPage section .main.top10downNo article.ratePlanBd .resultBox .rightColumn {
+  .wrapperPage section .main.top10downNo .tabs.unit article.ratePlanBd .resultBox .rightColumn {
     width: 100%;
     height: auto;
     padding: 1.875rem 1.25rem;
     box-shadow: 0 6px 0.75rem 0 rgba(75, 88, 105, 0.12);
   }
-  .wrapperPage section .main.top10downNo article.ratePlanBd .resultBox .rightColumn .mainTitle[style] {
+  .wrapperPage section .main.top10downNo .tabs.unit article.ratePlanBd .resultBox .rightColumn .mainTitle[style] {
     font-size: 1.25rem;
   }
-  .wrapperPage section .main.top10downNo article.ratePlanBd .resultBox .rightColumn .btnDownBox {
+  .wrapperPage section .main.top10downNo .tabs.unit article.ratePlanBd .resultBox .rightColumn .btnDownBox {
     margin-top: 10px;
     margin-bottom: 3.75rem;
   }
-  .wrapperPage section .main.top10downNo article.ratePlanBd .resultBox .rightColumn .desc {
+  .wrapperPage section .main.top10downNo .tabs.unit article.ratePlanBd .resultBox .rightColumn .desc {
     position: relative;
     left: 0;
   }
@@ -18390,11 +18358,12 @@ article.proDetailBox.postpaid .leftColumn .tabs {
 }
 article.proDetailBox.postpaid .leftColumn .tabsBox .partbox {
   border: 0;
-  background-color: #F1F3F5;
+  background-color: #fff;
+  border: 2px solid #e8ecf0;
   margin: 12px 0 0 0;
 }
 article.proDetailBox.postpaid .leftColumn .tabsBox .partbox .unfoldBox {
-  background-color: #F1F3F5;
+  background-color: #fff;
   padding: 0 48px 0px 30px;
   margin: 0;
 }
@@ -18497,6 +18466,24 @@ article .tabs ul.ui-tabs-nav li.ui-state-active::after {
     right: 15px;
   }
 }
+.shareBox iframe.line-it-button {
+  margin-top: 0;
+  background-image: url("../resources/img/line-share.svg") !important;
+  background-size: contain !important;
+}
+.shareBox a.facebook {
+  background-image: url("../resources/img/facebook-share.svg") !important;
+  background-size: contain !important;
+}
+.shareBox a.line[style] {
+  background-image: url("../resources/img/line-share.svg") !important;
+  background-size: contain !important;
+}
+.shareBox .title {
+  font-size: 16px;
+  color: #202020;
+}
+
 article.proDetailBox.postpaid .detailBoxHd {
   display: flex;
   flex-wrap: wrap;

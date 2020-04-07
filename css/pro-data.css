@@ -1,3 +1,21 @@
+.shareBox iframe.line-it-button {
+  margin-top: 0;
+  background-image: url("../resources/img/line-share.svg") !important;
+  background-size: contain !important;
+}
+.shareBox a.facebook {
+  background-image: url("../resources/img/facebook-share.svg") !important;
+  background-size: contain !important;
+}
+.shareBox a.line[style] {
+  background-image: url("../resources/img/line-share.svg") !important;
+  background-size: contain !important;
+}
+.shareBox .title {
+  font-size: 16px;
+  color: #202020;
+}
+
 article.proDetailBox.postpaid .detailBoxHd {
   display: flex;
   flex-wrap: wrap;

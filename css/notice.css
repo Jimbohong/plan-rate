@@ -13,16 +13,6 @@
 }
 .wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn {
   width: calc( 100% - 236px );
-  overflow: scroll;
-  -ms-overflow-style: none;
-}
-.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn::-webkit-scrollbar {
-  width: 0;
-  background: transparent;
-  display: none;
-}
-.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn::-webkit-scrollbar-thumb {
-  background: transparent;
 }
 .wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion {
   padding: 0;
@@ -41,11 +31,11 @@
 }
 .wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .mainTitle .trigger {
   right: 30px;
-  background-image: url("../resources/img/plus.svg");
+  background-image: url("/resources/img/plus.svg");
   transform: rotate(0);
 }
 .wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .mainTitle .odd {
-  background-image: url("../resources/img/minus.svg");
+  background-image: url("/resources/img/minus.svg");
 }
 .wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .mainTitle a {
   display: flex;
@@ -108,7 +98,7 @@
   width: 220px;
 }
 .wrapperPage section article.recommendBox .tabs article.proDetailBox .sidebar .box {
-  background-image: url("../resources/img/result.svg");
+  background-image: url("/resources/img/result.svg");
   padding: 30px 20px;
   border: 0;
   text-align: left;
@@ -125,7 +115,7 @@
 }
 .wrapperPage section article.recommendBox .tabs article.proDetailBox .sidebar .box .mainTitle::before {
   content: "";
-  background-image: url("../resources/img/calculator.svg");
+  background-image: url("/resources/img/calculator.svg");
   width: 30px;
   height: 30px;
   position: relative;

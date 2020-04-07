@@ -3,11 +3,12 @@ article.proDetailBox.postpaid .leftColumn .tabs {
 }
 article.proDetailBox.postpaid .leftColumn .tabsBox .partbox {
   border: 0;
-  background-color: #F1F3F5;
+  background-color: #fff;
+  border: 2px solid #e8ecf0;
   margin: 12px 0 0 0;
 }
 article.proDetailBox.postpaid .leftColumn .tabsBox .partbox .unfoldBox {
-  background-color: #F1F3F5;
+  background-color: #fff;
   padding: 0 48px 0px 30px;
   margin: 0;
 }
