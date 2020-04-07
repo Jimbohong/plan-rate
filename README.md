@@ -1,0 +1,3 @@
+# plan-rate
+
+how to

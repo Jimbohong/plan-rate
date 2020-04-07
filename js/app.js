@@ -80,7 +80,11 @@
     return Constructor;
   }
 
+<<<<<<< HEAD
   var commonjsGlobal = typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
+=======
+  var commonjsGlobal = typeof globalThis !== 'undefined' ? globalThis : typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
+>>>>>>> 0125543bfc85645b8c506f878477af947eb39711
 
   function createCommonjsModule(fn, module) {
   	return module = { exports: {} }, fn(module, module.exports), module.exports;
@@ -9374,6 +9378,7 @@
   });
   });
 
+<<<<<<< HEAD
   var FuiDropdown =
   /*#__PURE__*/
   function () {
@@ -9430,6 +9435,9 @@
   var FuiCollapse =
   /*#__PURE__*/
   function () {
+=======
+  var FuiCollapse = /*#__PURE__*/function () {
+>>>>>>> 0125543bfc85645b8c506f878477af947eb39711
     function FuiCollapse(elem) {
       var _this = this;
 
