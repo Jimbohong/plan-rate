@@ -17041,6 +17041,9 @@ section.subscribe-wrapper .error-message {
   padding: 30px;
   box-shadow: 0 6px 12px 0 rgba(75, 88, 105, 0.12);
 }
+.wrapperPage section article.recommendBox * > ::-webkit-scrollbar {
+  display: none;
+}
 .wrapperPage section article.recommendBox .tabs article.proDetailBox {
   padding: 0;
 }
@@ -18060,6 +18063,9 @@ iframe[src*='otherservice.html'] ~ .wrapperPage {
   background-color: #fff;
   padding: 30px;
   box-shadow: 0 6px 12px 0 rgba(75, 88, 105, 0.12);
+}
+.wrapperPage section article.recommendBox * > ::-webkit-scrollbar {
+  display: none;
 }
 .wrapperPage section article.recommendBox .tabs article.proDetailBox {
   padding: 0;
