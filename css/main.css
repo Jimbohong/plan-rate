@@ -17029,13 +17029,6 @@ section.subscribe-wrapper .error-message {
   background-color: red !important;
 }
 
-.wrapperPage section .leftColumn::-webkit-scrollbar {
-  display: none;
-}
-.wrapperPage section .leftColumn {
-  -ms-overflow-style: none;
-  overflow: auto;
-}
 .wrapperPage section article.recommendBox {
   background-color: #fff;
   padding: 30px;
@@ -17043,6 +17036,8 @@ section.subscribe-wrapper .error-message {
 }
 .wrapperPage section article.recommendBox * > ::-webkit-scrollbar {
   display: none;
+  -ms-overflow-style: none;
+  overflow: auto;
 }
 .wrapperPage section article.recommendBox .tabs article.proDetailBox {
   padding: 0;
@@ -18052,13 +18047,6 @@ iframe[src*='otherservice.html'] ~ .wrapperPage {
     width: 100%;
   }
 }
-.wrapperPage section .leftColumn::-webkit-scrollbar {
-  display: none;
-}
-.wrapperPage section .leftColumn {
-  -ms-overflow-style: none;
-  overflow: auto;
-}
 .wrapperPage section article.recommendBox {
   background-color: #fff;
   padding: 30px;
@@ -18066,6 +18054,8 @@ iframe[src*='otherservice.html'] ~ .wrapperPage {
 }
 .wrapperPage section article.recommendBox * > ::-webkit-scrollbar {
   display: none;
+  -ms-overflow-style: none;
+  overflow: auto;
 }
 .wrapperPage section article.recommendBox .tabs article.proDetailBox {
   padding: 0;
