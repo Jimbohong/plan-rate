@@ -7376,6 +7376,10 @@ section.form-section {
 .page-action {
   margin-top: 56px;
 }
+.page-action a.fui-button {
+  display: table-cell;
+  vertical-align: middle;
+}
 .page-action .fui-button {
   width: 100%;
 }
@@ -17025,6 +17029,13 @@ section.subscribe-wrapper .error-message {
   background-color: red !important;
 }
 
+.wrapperPage section .leftColumn::-webkit-scrollbar {
+  display: none;
+}
+.wrapperPage section .leftColumn {
+  -ms-overflow-style: none;
+  overflow: auto;
+}
 .wrapperPage section article.recommendBox {
   background-color: #fff;
   padding: 30px;
@@ -17038,18 +17049,38 @@ section.subscribe-wrapper .error-message {
   background-color: initial;
   padding: 0;
 }
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .detailBoxBd .descbox {
+  border: 0;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .detailBoxBd .mainTitle {
+  padding: 30px 48px 24px 30px;
+  margin: 0;
+  border: 0;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .detailBoxBd .mainTitle .close {
+  font-size: 0;
+  background-image: url("../resources/img/plus.svg");
+  transform: initial;
+  right: 48px;
+  top: 30px;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .detailBoxBd .mainTitle .close.odd {
+  background-image: url("../resources/img/minus.svg");
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .detailBoxBd .mainTitle .subTitle {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .detailBoxBd .mainTitle .subTitle::after {
+  display: none;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .detailBoxBd .open {
+  display: none;
+}
 .wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn {
   width: calc( 100% - 236px );
   overflow: scroll;
-  -ms-overflow-style: none;
-}
-.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn::-webkit-scrollbar {
-  width: 0;
-  background: transparent;
-  display: none;
-}
-.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn::-webkit-scrollbar-thumb {
-  background: transparent;
 }
 .wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion {
   padding: 0;
@@ -18018,6 +18049,13 @@ iframe[src*='otherservice.html'] ~ .wrapperPage {
     width: 100%;
   }
 }
+.wrapperPage section .leftColumn::-webkit-scrollbar {
+  display: none;
+}
+.wrapperPage section .leftColumn {
+  -ms-overflow-style: none;
+  overflow: auto;
+}
 .wrapperPage section article.recommendBox {
   background-color: #fff;
   padding: 30px;
@@ -18031,18 +18069,38 @@ iframe[src*='otherservice.html'] ~ .wrapperPage {
   background-color: initial;
   padding: 0;
 }
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .detailBoxBd .descbox {
+  border: 0;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .detailBoxBd .mainTitle {
+  padding: 30px 48px 24px 30px;
+  margin: 0;
+  border: 0;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .detailBoxBd .mainTitle .close {
+  font-size: 0;
+  background-image: url("../resources/img/plus.svg");
+  transform: initial;
+  right: 48px;
+  top: 30px;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .detailBoxBd .mainTitle .close.odd {
+  background-image: url("../resources/img/minus.svg");
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .detailBoxBd .mainTitle .subTitle {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .detailBoxBd .mainTitle .subTitle::after {
+  display: none;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .detailBoxBd .open {
+  display: none;
+}
 .wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn {
   width: calc( 100% - 236px );
   overflow: scroll;
-  -ms-overflow-style: none;
-}
-.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn::-webkit-scrollbar {
-  width: 0;
-  background: transparent;
-  display: none;
-}
-.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn::-webkit-scrollbar-thumb {
-  background: transparent;
 }
 .wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion {
   padding: 0;

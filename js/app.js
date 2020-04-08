@@ -80,11 +80,7 @@
     return Constructor;
   }
 
-<<<<<<< HEAD
-  var commonjsGlobal = typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
-=======
   var commonjsGlobal = typeof globalThis !== 'undefined' ? globalThis : typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
->>>>>>> 0125543bfc85645b8c506f878477af947eb39711
 
   function createCommonjsModule(fn, module) {
   	return module = { exports: {} }, fn(module, module.exports), module.exports;
@@ -9378,66 +9374,7 @@
   });
   });
 
-<<<<<<< HEAD
-  var FuiDropdown =
-  /*#__PURE__*/
-  function () {
-    function FuiDropdown(elem) {
-      var _this = this;
-
-      _classCallCheck(this, FuiDropdown);
-
-      this.dropdown = elem;
-      this.formElem = this.dropdown.getElementsByTagName("select")[0];
-      this.button = this.dropdown.getElementsByClassName("fui-dropdown-item")[0];
-      this.menu = this.dropdown.getElementsByClassName("fui-menu")[0];
-      this.open = false;
-      jquery(this.menu).find(".fui-item").click(function (e) {
-        debugger;
-        var timer = setTimeout(function () {
-          _this.doClose();
-
-          clearTimeout(timer);
-        }, 100);
-      });
-      this.button.addEventListener("click", function (e) {
-        e.target.focus();
-        if (!_this.open) { _this.doOpen(); }else { _this.doClose(); }
-      });
-      this.button.addEventListener("blur", function (e) {
-        var timer = setTimeout(function () {
-          _this.doClose();
-
-          clearTimeout(timer);
-        }, 100);
-      });
-    }
-
-    _createClass(FuiDropdown, [{
-      key: "doClose",
-      value: function doClose() {
-        this.open = false;
-        this.dropdown.classList.remove("is-show");
-        this.button.setAttribute("aria-expanded", false);
-      }
-    }, {
-      key: "doOpen",
-      value: function doOpen() {
-        this.open = true;
-        this.dropdown.classList.add("is-show");
-        this.button.setAttribute("aria-expanded", true);
-      }
-    }]);
-
-    return FuiDropdown;
-  }();
-
-  var FuiCollapse =
-  /*#__PURE__*/
-  function () {
-=======
   var FuiCollapse = /*#__PURE__*/function () {
->>>>>>> 0125543bfc85645b8c506f878477af947eb39711
     function FuiCollapse(elem) {
       var _this = this;
 
