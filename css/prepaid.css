@@ -1,0 +1,53 @@
+article.proDetailBox .tabs.singleColumn .languageBox {
+  margin-top: 0;
+}
+
+article.recommendBox .detailBoxBd .descbox {
+  margin-top: 24px;
+  background-color: #fafafa;
+  border: none !important;
+  padding: 3.75rem;
+}
+article.recommendBox .detailBoxBd .descbox .mainTitle {
+  font-size: 1rem;
+  color: #5f6e84;
+  margin-bottom: 1.875rem;
+  border: 0;
+}
+article.recommendBox .detailBoxBd .descbox .mainTitle .close {
+  font-size: 0;
+  background-image: url("../resources/img/plus.svg");
+  transform: initial;
+  right: 48px;
+  top: 30px;
+}
+article.recommendBox .detailBoxBd .descbox .mainTitle .close:hover {
+  background: url("../resources/img/plus.svg");
+}
+article.recommendBox .detailBoxBd .descbox .mainTitle .close.odd {
+  background-image: url("../resources/img/minus.svg");
+}
+article.recommendBox .detailBoxBd .descbox .mainTitle .close.odd:hover {
+  background: url("../resources/img/minus.svg");
+}
+article.recommendBox .detailBoxBd .descbox .mainTitle #descOpen_1 {
+  display: none;
+}
+article.recommendBox .detailBoxBd .descbox .mainTitle .open {
+  font-size: 0;
+}
+article.recommendBox .detailBoxBd .descbox .mainTitle .unfold {
+  max-height: 76px;
+}
+article.recommendBox .detailBoxBd .descbox .mainTitle .unfold ol li {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: #5f6e84;
+}
+article.recommendBox .detailBoxBd .descbox .mainTitle .unfold ol.on {
+  max-height: initial;
+  padding-bottom: 60px;
+}
+article.recommendBox .detailBoxBd a.open {
+  display: none !important;
+}

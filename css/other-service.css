@@ -1,0 +1,11 @@
+.detailBoxBd .editBox.leftColumn {
+  width: 100%;
+  overflow: scroll;
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 960px) {
+  article.proDetailBox.postpaid .leftColumn .tabsBox {
+    overflow: scroll;
+  }
+}

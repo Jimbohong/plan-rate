@@ -1,0 +1,306 @@
+.wrapperPage section article.recommendBox {
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 0 6px 12px 0 rgba(75, 88, 105, 0.12);
+}
+.wrapperPage section article.recommendBox * > ::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;
+  overflow: auto;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox {
+  padding: 0;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .detailBoxBd {
+  box-shadow: none;
+  background-color: initial;
+  padding: 0;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .detailBoxBd .descbox {
+  border: 0;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .detailBoxBd .mainTitle {
+  padding: 30px 48px 24px 30px;
+  margin: 0;
+  border: 0;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .detailBoxBd .mainTitle .close {
+  font-size: 0;
+  background-image: url("../resources/img/plus.svg");
+  transform: initial;
+  right: 48px;
+  top: 30px;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .detailBoxBd .mainTitle .close.odd {
+  background-image: url("../resources/img/minus.svg");
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .detailBoxBd .mainTitle .subTitle {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .detailBoxBd .mainTitle .subTitle::after {
+  display: none;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .detailBoxBd .open {
+  display: none;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn {
+  width: calc( 100% - 236px );
+  overflow: scroll;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion {
+  padding: 0;
+  border: 0;
+  background-color: #fff;
+  border: 2px solid #F1F3F5;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion.open {
+  display: block;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .open {
+  display: none;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .mainTitle {
+  background-color: #fff;
+  border: 0;
+  box-shadow: none;
+  padding: 30px;
+  margin: 0;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .mainTitle .trigger {
+  right: 30px;
+  background-image: url("../resources/img/plus.svg");
+  transform: rotate(0);
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .mainTitle .odd {
+  background-image: url("../resources/img/minus.svg");
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .mainTitle a {
+  display: flex;
+  flex-direction: column;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .mainTitle a b {
+  color: #5f7b80;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 12px;
+  font-weight: 400;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .mainTitle a span {
+  border: 0;
+  font-size: 20px;
+  color: #202020;
+  padding: 0;
+  line-height: 1.78;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .schinner {
+  overflow: scroll;
+  margin: 0 30px 30px 30px;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .schinner table {
+  border: 2px solid #E8ECF0;
+  font-size: 16px;
+  width: 100% !important;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .schinner table strong {
+  color: #5f6e84;
+  font-size: 16px;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .schinner table td {
+  font-size: 16px;
+  vertical-align: middle;
+  padding: 12px;
+  color: #5f6e84;
+  background-color: #fff;
+  border: 2px solid #e8ecf0;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .schinner table tr:nth-child(2n) td {
+  background-color: #fff;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .schinner .descbox {
+  margin-bottom: 30px;
+  background-color: #fafafa;
+  color: #5f6e84;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .schinner .descbox li {
+  color: #5f6e84;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .schinner .descbox .mainTitle {
+  background: initial;
+  color: #5f6e84;
+  padding-left: 0;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .sidebar {
+  width: 220px;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .sidebar .box {
+  background-image: url("../resources/img/result.svg");
+  padding: 30px 20px;
+  border: 0;
+  text-align: left;
+  box-shadow: none;
+  background-size: contain;
+  background-position: right bottom;
+  background-color: #EFF4F1;
+  background-repeat: no-repeat;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .sidebar .box .mainTitle {
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .sidebar .box .mainTitle::before {
+  content: "";
+  background-image: url("../resources/img/calculator.svg");
+  width: 30px;
+  height: 30px;
+  position: relative;
+  margin-bottom: 12px;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .sidebar .box .mainTitle img {
+  display: none;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .sidebar .box p {
+  font-size: 16px;
+  color: #202020;
+  margin-bottom: 30px;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .sidebar .box a {
+  font-size: 16px;
+  padding: 12px;
+  background: initial;
+  color: #202020;
+  height: auto;
+  border: 2px solid #202020;
+  font-weight: 500;
+  line-height: initial;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .sidebar .box a img {
+  display: none;
+}
+.wrapperPage section article.recommendBox .tabPagerBox {
+  margin: 36px 0 60px 0;
+}
+.wrapperPage section article.recommendBox .tabPagerBox .tab-pager a {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.wrapperPage section article.recommendBox .tabPagerBox .tab-pager a:hover {
+  color: #202020;
+}
+.wrapperPage section article.recommendBox .tabPagerBox .tab-pager li {
+  margin: 0 12px;
+}
+.wrapperPage section article.recommendBox .tabPagerBox .tab-pager li.next a, .wrapperPage section article.recommendBox .tabPagerBox .tab-pager li.prev a, .wrapperPage section article.recommendBox .tabPagerBox .tab-pager li.last a, .wrapperPage section article.recommendBox .tabPagerBox .tab-pager li.first a {
+  filter: brightness(0);
+}
+.wrapperPage section article.recommendBox .tabPagerBox .tab-pager li.next a:hover, .wrapperPage section article.recommendBox .tabPagerBox .tab-pager li.prev a:hover, .wrapperPage section article.recommendBox .tabPagerBox .tab-pager li.last a:hover, .wrapperPage section article.recommendBox .tabPagerBox .tab-pager li.first a:hover {
+  filter: brightness(1);
+}
+.wrapperPage section article.recommendBox .tabPagerBox .tab-pager li.disabled {
+  opacity: 0.3;
+}
+.wrapperPage section article.recommendBox .tabPagerBox .tab-pager li.disabled a {
+  color: #d6d6d6;
+  pointer-events: none;
+}
+.wrapperPage section article.recommendBox .tabPagerBox .tab-pager li.active a {
+  background-color: #6a798e;
+  color: #fff;
+}
+.wrapperPage section article.recommendBox .tabPagerBox .tab-pager .goTo {
+  display: none;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox {
+  overflow: scroll;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox a::after {
+  display: none !important;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox a:hover {
+  transition: color 0.3s ease-in;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox a:hover::after {
+  display: none !important;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox * {
+  font-size: 16px;
+  line-height: 1.75;
+  white-space: normal;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox table tbody tr:hover td {
+  background-color: initial;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox table tbody tr:hover td:hover {
+  tr: nth-child(3n) td;
+  tr-background: #f1f3f5;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox table tbody tr:nth-child(1) th {
+  background: #f1f3f5;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox table tbody tr:nth-child(1) th:nth-child(1) {
+  background-color: initial;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox table.posttable tr th, .wrapperPage section article.recommendBox .detailBoxBd .editBox table.posttable tr td {
+  color: #5f6e84;
+  background-color: initial;
+  border: 2px solid #e8ecf0;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox table.posttable tr th span, .wrapperPage section article.recommendBox .detailBoxBd .editBox table.posttable tr td span {
+  color: #5f6e84;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox table.posttable tr th strong, .wrapperPage section article.recommendBox .detailBoxBd .editBox table.posttable tr td strong {
+  color: #202020;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox table.posttable tr:hover td {
+  color: #5f6e84;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox table.posttable td.hd {
+  background: initial;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox .btnDownBox .box {
+  float: left;
+  margin: 0;
+  border: 0;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox .btnDownBox .box a.button {
+  color: #202020;
+  text-align: left;
+  background-color: initial;
+  border: 0;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.wrapperPage section article.recommendBox .detailBoxBd .editBox .btnDownBox .box a.button::before {
+  content: "";
+  background: url(https://www.fetnet.net/images/icon/icon_pagerPrev.png) no-repeat center;
+  height: 20px;
+  filter: brightness(0);
+  display: inline-block;
+  background-size: contain;
+  width: 20px;
+  margin-right: 6px;
+}
+
+@media screen and (max-width: 960px) {
+  .wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn {
+    width: 100%;
+  }
+  .wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .mainTitle.schBoxHd span {
+    padding-right: 30px;
+  }
+  .wrapperPage section article.recommendBox .tabs article.proDetailBox .sidebar {
+    width: 100%;
+  }
+
+  .wrapperPage section article.recommendBox .detailBoxBd .editBox table {
+    white-space: nowrap;
+  }
+}

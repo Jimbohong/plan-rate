@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en" class="only-desktop">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Test</title>
+    <link rel="stylesheet" href="./css/main.css"/>
+    <link rel="stylesheet" href="./css/loader.css"/>
+  </head>
+  <body>
+    <header style="" class="fui-header only-desktop">
+      <div class="fui-control-bar">
+        <div class="fui-container">
+          <div class="left">
+            <label class="fui-switch">
+              <input type="checkbox" name="is_business" value="1"/>
+              <div class="content"><span class="off">個人</span><span class="on">商務</span></div>
+            </label>
+          </div>
+          <div class="right"><a href="/">關於遠傳</a></div>
+        </div>
+      </div>
+      <nav role="navigation" aria-label="main navigation" class="fui-navbar has-shadow is-spaced">
+        <div class="fui-container">
+          <div class="fui-navbar-menu">
+            <div class="navbar-left">
+              <button id="menu-trigger" tabindex="0" class="menu-trigger"><span></span><span></span><span></span></button>
+            </div>
+            <div class="navbar-center"><a id="brand" href="/ebu/index" class="navbar-item brand"><img src="/resources/common/images/fetnet-logo.png" alt=""/></a></div>
+            <div class="navbar-right">
+              <button class="navbar-item"><img src="./resources/common/images/e-store.svg" width="28"/></button>
+              <button id="search-trigger" class="navbar-item"><i class="icon-search"></i></button>
+              <div to="/index" class="navbar-item">
+                <div class="fui-dropdown is-right is-top">
+                  <button aria-haspopup="true" aria-expanded="false" aria-label="&lt;i class=&quot;icon-member-ebu&quot;&gt;&lt;/i&gt;" class="fui-dropdown-item"><span><i class="icon-member-ebu"></i></span></button>
+                  <div role="menu" tabindex="-1" class="fui-menu">
+                    <div class="menu-wrapper"><a role="button" href="/ebu/business-login" class="fui-item active"><span class="content">企業登入</span></a><a role="button" href="/" class="fui-item active"><span class="content">企業郵件</span></a><a role="button" href="/" class="fui-item active"><span class="content">Office365</span></a><a role="button" href="/ebu/product/smart-wifi" class="fui-item active"><span class="content">企業光纖</span></a><a role="button" href="/" class="fui-item active"><span class="content">域名服務</span></a><a role="button" href="/" class="fui-item active"><span class="content">網路流量</span></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div role="menu" tabindex="-1" aria-labelledby="search-trigger" class="fui-search-panel">
+        <div class="fui-search-header">
+          <div class="fui-container">
+            <button class="close"><i class="icon-close"></i></button>
+          </div>
+        </div>
+        <div class="fui-search-body">
+          <div class="fui-container">
+            <div class="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-center">
+              <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-10">
+                <div class="keyword-input-container">
+                  <h2>想要找什麼？</h2>
+                  <div style="width: 100%; position: relative;">
+                    <div class="fui-input-group is-keyword">
+                      <div class="fui-input">
+                        <input role="combobox" aria-autocomplete="list" aria-expanded="false" autocomplete="off" type="text" placeholder="立即搜尋 IOT" value=""/>
+                      </div>
+                      <div class="fui-action">
+                        <button class="fui-button is-primary"><span class="text">搜尋</span></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="search-helper"><a href="/" class="search-item"><img src="/resources/common/images/feedback.png" alt="線上問題反應"/>
+                    <div class="text">線上問題反應</div></a><a href="/ebu/help-center?tab=ebu" class="search-item"><img src="/resources/common/images/help-center.png" alt="幫助中心"/>
+                    <div class="text">幫助中心</div></a><a href="/" class="search-item"><img src="/resources/common/images/5G.png" alt="5G 白皮書"/>
+                    <div class="text">5G 白皮書</div></a></div>
+                <h5 class="mb-2">常用關鍵字</h5><a role="button" href="/search?keyword=人力管理" class="fui-button is-label">人力管理</a><a role="button" href="/search?keyword=雲端辦公室" class="fui-button is-label">雲端辦公室</a><a role="button" href="/search?keyword=5G" class="fui-button is-label">5G</a><a role="button" href="/search?keyword=精準行銷" class="fui-button is-label">精準行銷</a><a role="button" href="/search?keyword=顧客關係管理" class="fui-button is-label">顧客關係管理</a><a role="button" href="/search?keyword=雲端儲存" class="fui-button is-label">雲端儲存</a><a role="button" href="/search?keyword=企業節費電話" class="fui-button is-label">企業節費電話</a><a role="button" href="/search?keyword=開店" class="fui-button is-label">開店</a><a role="button" href="/search?keyword=數位轉型" class="fui-button is-label">數位轉型</a><a role="button" href="/search?keyword=企業轉型" class="fui-button is-label">企業轉型</a><a role="button" href="/search?keyword=企業VPN" class="fui-button is-label">企業VPN</a><a role="button" href="/search?keyword=雲端整合" class="fui-button is-label">雲端整合</a><a role="button" href="/search?keyword=行動化平台" class="fui-button is-label">行動化平台</a><a role="button" href="/search?keyword=資訊安全" class="fui-button is-label">資訊安全</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fui-search-footer"><a href="/">聯絡客服</a><span class="inline-divider"></span><a href="/">網站地圖</a></div>
+      </div>
+      <div role="menu" tabindex="-1" aria-labelledby="menu-trigger" class="fui-sidebar">
+        <div class="sidebar-header">
+          <div class="close"></div>
+          <label class="fui-switch">
+            <input type="checkbox" name="is_business" value="1"/>
+            <div class="content"><span class="off">個人</span><span class="on">商務</span></div>
+          </label>
+        </div>
+        <div class="user-section">
+          <div class="avatar"><img src="/resources/common/images/ebu-avatar.png" alt="login-avatar"/></div><a href="/"><span class="subtitle">登入 / 註冊</span></a>
+        </div>
+        <div class="entrance">
+          <div class="entrance-item"><a role="button" href="/">
+              <div class="icon"><img src="/resources/common/images/office-365.png" alt="Office 365"/></div>
+              <div class="text">Office 365</div></a></div>
+          <div class="entrance-item"><a role="button" href="/ebu/product/smart-wifi">
+              <div class="icon"><img src="/resources/common/images/optical-fiber.png" alt="企業光纖"/></div>
+              <div class="text">企業光纖</div></a></div>
+          <div class="entrance-item"><a role="button" href="/">
+              <div class="icon"><img src="/resources/common/images/domain-name.png" alt="域名服務"/></div>
+              <div class="text">域名服務</div></a></div>
+          <div class="entrance-item"><a role="button" href="/">
+              <div class="icon"><img src="/resources/common/images/network-traffic.png" alt="網路流量"/></div>
+              <div class="text">網路流量</div></a></div>
+        </div>
+        <div class="menu">
+          <div class="item is-collapse">
+            <div class="menu-header">
+              <div class="content">微型店家解決方案</div>
+              <div class="action"><i class="icon-chevron-down"></i></div>
+            </div>
+            <div class="menu-content"><a href="//" to="//" class="fui-item">想擴展</a><a href="//" to="//" class="fui-item">想轉型</a><a href="//" to="//" class="fui-item">想省錢</a></div>
+          </div>
+          <div class="item is-collapse">
+            <div class="menu-header">
+              <div class="content">中型企業解決方案</div>
+              <div class="action"><i class="icon-chevron-down"></i></div>
+            </div>
+            <div class="menu-content"><a href="/" class="fui-item">跨國零距離溝通</a><a href="/" class="fui-item">儲存成長中的資料</a><a href="/" class="fui-item">打造安全的數位環境</a><a href="/" class="fui-item">精準行銷理想的客戶</a></div>
+          </div>
+          <div class="item is-collapse">
+            <div class="menu-header">
+              <div class="content">大型企業解決方案</div>
+              <div class="action"><i class="icon-chevron-down"></i></div>
+            </div>
+            <div class="menu-content"><a href="/" class="fui-item">企業上雲超靈活</a><a href="/" class="fui-item">企業資安再進化</a><a href="/" class="fui-item">萬物聯網現商機</a></div>
+          </div>
+          <div class="item is-collapse">
+            <div class="menu-header">
+              <div class="content">公部門解決方案</div>
+              <div class="action"><i class="icon-chevron-down"></i></div>
+            </div>
+            <div class="menu-content"><a href="/" class="fui-item">構築樂活低碳智慧城市</a><a href="/" class="fui-item">用物聯網連結智慧政府</a><a href="/" class="fui-item">形塑資安的銅牆鐵壁</a></div>
+          </div>
+          <div class="item is-collapse">
+            <div class="menu-header">
+              <div class="content">產品與服務</div>
+              <div class="action"><i class="icon-chevron-down"></i></div>
+            </div>
+            <div class="menu-content"><a href="/" class="fui-item">網路</a><a href="/ebu/product/call-service" class="fui-item">語音</a><a href="/" class="fui-item">行動電話</a><a href="/" class="fui-item">資訊安全</a><a href="/" class="fui-item">企業雲端</a><a href="/" class="fui-item">軟體應用</a></div>
+          </div><a href="/ebu/tech" class="item">
+            <div class="menu-header">
+              <div class="content">趨勢觀點</div>
+            </div></a>
+          <div class="item is-collapse">
+            <div class="menu-header">
+              <div class="content">幫助中心</div>
+              <div class="action"><i class="icon-chevron-down"></i></div>
+            </div>
+            <div class="menu-content"><a href="/help-center?tab=ebu" class="fui-item">總覽</a><a href="/help-center/ebu/download" class="fui-item">文件下載</a><a href="/help-center/ebu/service" class="fui-item">企客服務</a><a href="/help-center/ebu/faq" class="fui-item">常見問題</a><a href="/help-center?tab=contact" class="fui-item">聯絡我們</a></div>
+          </div><a href="/" class="item">
+            <div class="menu-header">
+              <div class="content">5G</div>
+            </div></a><a href="/ebu/promotion" class="item">
+            <div class="menu-header">
+              <div class="content">優惠</div>
+            </div></a>
+        </div>
+        <div class="menu-footer">
+          <div role="button" class="fui-item"><img src="/resources/common/images/success-case.png" alt="看更多成功案例"/><span class="content">看更多成功案例</span></div>
+          <div role="button" class="fui-item"><img src="/resources/common/images/about-info.png" alt="關於遠傳"/><span class="content">關於遠傳</span></div><a role="button" href="/" class="fui-item"><img src="/resources/common/images/global.png" alt="English"/><span class="content">English</span></a>
+        </div>
+        <div class="section-promotion-5"><a href="/" style="background-image: url(&quot;/resources/ebu/images/ebu-medium-ad-01-600x260.jpg&quot;);">
+            <div class="desktop">
+              <h3>遠傳企業Office 365 輕享方案</h3>
+              <h6>最殺的價格、超彈性的付費、完整雲端行動辦公 遠傳一次幫你搞定！</h6>
+              <div class="promotion-button"><span class="text">了解 Office 365 輕享</span></div>
+            </div>
+            <div class="mobile">
+              <h3>遠傳企業Office 365 輕享方案</h3>
+              <h6>最殺的價格、超彈性的付費、完整雲端行動辦公 遠傳一次幫你搞定！</h6>
+              <div class="promotion-button"><span class="text">了解 Office 365 輕享</span></div>
+            </div></a></div>
+      </div>
+      <div role="menu" tabindex="-1" aria-labelledby="menu-trigger" class="fui-menu-container">
+        <div class="fui-menu-header">
+          <div class="fui-container"><a href="/ebu/index" class="navbar-item brand"><img src="/resources/common/images/fetnet-logo.png" alt=""/></a>
+            <button class="close"><i class="icon-close"></i></button>
+          </div>
+        </div>
+        <div class="fui-menu-body">
+          <div class="fui-container">
+            <div class="MuiGrid-root MuiGrid-container">
+              <div class="MuiGrid-root menu-header MuiGrid-item MuiGrid-grid-md-2">
+                <div class="menu-content">
+                  <div class="list">
+                    <div role="button" data-menu-index="0" class="fui-item paded is-active"><span class="content">解決方案</span></div>
+                    <div role="button" data-menu-index="1" class="fui-item paded"><span class="content">產品與服務</span></div>
+                    <div role="button" class="fui-item paded"><span class="content">趨勢觀點</span></div>
+                    <div role="button" data-menu-index="3" class="fui-item paded"><span class="content">幫助中心</span></div>
+                    <div role="button" class="fui-item paded"><span class="content">5G</span></div>
+                    <div role="button" class="fui-item paded"><span class="content">優惠</span></div>
+                  </div>
+                </div>
+                <div class="menu-action">
+                  <div role="button" class="fui-item"><img src="/resources/common/images/success-case.png" alt="看更多成功案例"/><span class="content">看更多成功案例</span></div>
+                </div>
+              </div>
+              <div data-menu-index="0" class="MuiGrid-root menu-body MuiGrid-item MuiGrid-grid-sm-10 MuiGrid-grid-md-8 MuiGrid-grid-lg-8 MuiGrid-grid-xl-8">
+                <div class="menu-content">
+                  <div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
+                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3">
+                      <h6>微型店家</h6><a role="button" href="/content/ebu/tw/solution/micro-business/micro-business.html" class="fui-item item"><span class="content">頭家輕鬆配</span></a>
+                    </div>
+                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3">
+                      <h6>中型企業</h6><a role="button" href="/content/ebu/tw/solution/enterprise-cloud-solution.html" class="fui-item item"><span class="content">雲端我最行</span></a><a role="button" href="/content/ebu/tw/solution/enterprise-aem-solution.html" class="fui-item item"><span class="content">通訊好夥伴</span></a><a role="button" href="/content/ebu/tw/solution/enterprise-solutions-service.html" class="fui-item item"><span class="content">智慧未來館</span></a><a role="button" href="/content/ebu/tw/solution/enterprise-data-service.html" class="fui-item item"><span class="content">數據領航家</span></a>
+                    </div>
+                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3">
+                      <h6>大型企業</h6><a role="button" href="/content/ebu/tw/solution/large-enterprise/l3/large-enterprise-iot/IoT-intro.html" class="fui-item item"><span class="content">擁抱物聯網</span></a><a role="button" href="/content/ebu/tw/solution/enterprise-aem-solution.html" class="fui-item item"><span class="content">企業資通訊解決方案</span></a><a role="button" href="/content/ebu/tw/product/security/security_product-l31.html" class="fui-item item"><span class="content">企業資安金鐘罩</span></a><a role="button" href="/content/ebu/tw/solution/enterprise-cloud-solution.html" class="fui-item item"><span class="content">新世代雲端管理</span></a>
+                    </div>
+                    <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3">
+                      <h6>公部門</h6><a role="button" href="/content/ebu/tw/solution/public-sector-solutions.html" class="fui-item item"><span class="content">打造智慧城市</span></a><a role="button" href="/content/ebu/tw/solution/large-enterprise/l3/large-enterprise-iot/IoT-intro.html" class="fui-item item"><span class="content">用物聯網連結智慧政府</span></a><a role="button" href="/content/ebu/tw/product/security/security_product-l31.html" class="fui-item item"><span class="content">形塑資安的銅牆鐵壁</span></a>
+                    </div>
+                  </div>
+                  <div class="fui-card-container mt-5 pt-5">
+                    <h6 class="mb-2">主題企劃</h6>
+                    <div class="fui-cards four-card is-flat">
+                      <div class="fui-card box is-blue"><a href="/ebu/solution" class="fui-card-action">
+                          <div class="fui-card-caption">
+                            <div class="icon"><img src="/resources/common/images/new-home.png" width="80" alt=""/></div>
+                            <div class="fui-card-content">
+                              <h4 class="fui-card-title">策劃您的第一間店</h4>
+                            </div>
+                          </div></a></div>
+                      <div class="fui-card box is-business"><a href="#" class="fui-card-action">
+                          <div class="fui-card-caption">
+                            <div class="icon"><img src="/resources/common/images/smart-office.png" width="80" alt=""/></div>
+                            <div class="fui-card-content">
+                              <h4 class="fui-card-title">未來辦公室提案</h4>
+                            </div>
+                          </div></a></div>
+                      <div class="fui-card box is-navy"><a href="#" class="fui-card-action">
+                          <div class="fui-card-caption">
+                            <div class="icon"><img src="/resources/common/images/aiot.png" width="80" alt=""/></div>
+                            <div class="fui-card-content">
+                              <h4 class="fui-card-title">大人物策略定製</h4>
+                            </div>
+                          </div></a></div>
+                      <div class="fui-card box is-gray"><a href="#" class="fui-card-action">
+                          <div class="fui-card-caption">
+                            <div class="icon"><img src="/resources/common/images/5-g.png" width="80" alt=""/></div>
+                            <div class="fui-card-content">
+                              <h4 class="fui-card-title">5G試驗場域</h4>
+                            </div>
+                          </div></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-menu-index="1" class="MuiGrid-root menu-body MuiGrid-item MuiGrid-grid-sm-10 MuiGrid-grid-md-10 MuiGrid-grid-lg-8 MuiGrid-grid-xl-10 d-none">
+                <div class="menu-content">
+                  <div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
+                    <div class="MuiGrid-root mb-2 MuiGrid-item MuiGrid-grid-xs-4">
+                      <h6>行動服務</h6><a role="button" href="/content/ebu/tw/product/mobile_product/mobile_product-l3/volte/volte-vowifi-intro.html" class="fui-item item"><span class="content">VoLTE/VoWiFi商務一網通</span></a><a role="button" href="/content/ebu/tw/product/mobile_product/mobile_product-l3/mvpn/mvpn-intro.html" class="fui-item item"><span class="content">MVPN行動企業群組</span></a><a role="button" href="/content/ebu/tw/product/mobile_product/mobile_product-l3/wvpn.html" class="fui-item item"><span class="content">行動數據網路</span></a><a role="button" href="/content/ebu/tw/product/mobile_product/mobile_product-l3/fet-uc/fet-uc-intro.html" class="fui-item item"><span class="content">遠傳分享通</span></a><a role="button" href="/content/ebu/tw/product/mobile_product/mobile_product-l3/sms/sms-intro.html" class="fui-item item"><span class="content">企業簡訊</span></a><a role="button" href="/content/ebu/tw/sitemap.html" class="fui-item more"><span class="content">更多產品</span><span class="extra"><i class="icon-chevron-right"></i></span></a>
+                    </div>
+                    <div class="MuiGrid-root mb-2 MuiGrid-item MuiGrid-grid-xs-4">
+                      <h6>固網服務</h6><a role="button" href="/content/ebu/tw/product/broadband_product/broadband.html" class="fui-item item"><span class="content">寬頻上網</span></a><a role="button" href="/content/ebu/tw/product/broadband_product/voice.html" class="fui-item item"><span class="content">語音服務</span></a><a role="button" href="/content/ebu/tw/product/broadband_product/data-circuit.html" class="fui-item item"><span class="content">數據電路</span></a><a role="button" href="/content/ebu/tw/product/broadband_product/virtual-network2.html" class="fui-item item"><span class="content">虛擬網路</span></a><a role="button" href="/content/ebu/tw/product/broadband_product/network.html" class="fui-item item"><span class="content">網路服務</span></a><a role="button" href="/content/ebu/tw/sitemap.html" class="fui-item more"><span class="content">更多產品</span><span class="extra"><i class="icon-chevron-right"></i></span></a>
+                    </div>
+                    <div class="MuiGrid-root mb-2 MuiGrid-item MuiGrid-grid-xs-4">
+                      <h6>企業雲總覽</h6><a role="button" href="/content/ebu/tw/product/cloud_product/cloud/cloud-aws.html" class="fui-item item"><span class="content">遠傳AWS雲端服務</span></a><a role="button" href="/content/ebu/tw/product/cloud_product/cloud/cloud-bigdata/cloud-bigdata-intro.html" class="fui-item item"><span class="content">遠傳AWS-大數據服務</span></a><a role="button" href="/content/ebu/tw/product/cloud_product/cloud/cloud-devops/cloud-devops-intro.html" class="fui-item item"><span class="content">遠傳AWS-DevOps服務</span></a><a role="button" href="/content/ebu/tw/product/cloud_product/cloud/cloud-azure/cloud-azure-intro.html" class="fui-item item"><span class="content">遠傳Azure雲端服務</span></a><a role="button" href="/content/ebu/tw/product/cloud_product/cloud/cloud-azurestack/cloud-azurestack-intro.html" class="fui-item item"><span class="content">遠傳Azure Stack雲端服務</span></a><a role="button" href="/content/ebu/tw/sitemap.html" class="fui-item more"><span class="content">更多產品</span><span class="extra"><i class="icon-chevron-right"></i></span></a>
+                    </div>
+                    <div class="MuiGrid-root mb-2 MuiGrid-item MuiGrid-grid-xs-4">
+                      <h6>雲端軟體與應用</h6><a role="button" href="/content/ebu/tw/product/cloud_product/saas/office365/office365-intro.html" class="fui-item item"><span class="content">遠傳企業Office 365</span></a><a role="button" href="/content/ebu/tw/product/cloud_product/saas/cloud-confcall/cloud-confcall-intro.html" class="fui-item item"><span class="content">雲端電話/網路會議</span></a><a role="button" href="/content/ebu/tw/product/cloud_product/saas/cloud-safe/cloud-safe-intro.html" class="fui-item item"><span class="content">雲端資安保全</span></a><a role="button" href="/content/ebu/tw/product/cloud_product/saas/cloud-video/cloud-video-intro.html" class="fui-item item"><span class="content">視訊會議雲</span></a><a role="button" href="/content/ebu/tw/product/cloud_product/saas/cloud-soc/cloud-soc-intro.html" class="fui-item item"><span class="content">資安保全服務SOC</span></a><a role="button" href="/content/ebu/tw/sitemap.html" class="fui-item more"><span class="content">更多產品</span><span class="extra"><i class="icon-chevron-right"></i></span></a>
+                    </div>
+                    <div class="MuiGrid-root mb-2 MuiGrid-item MuiGrid-grid-xs-4">
+                      <h6>物聯網</h6><a role="button" href="/content/ebu/tw/product/IOT/IOT_L3/iot-motor/iot-motor-intro.html" class="fui-item item"><span class="content">智慧車聯</span></a><a role="button" href="/content/ebu/tw/product/IOT/IOT_L3/iot-building/iot-building-intro.html" class="fui-item item"><span class="content">智慧大樓</span></a><a role="button" href="/content/ebu/tw/product/IOT/IOT_L3/iot-light/iot-light-intro.html" class="fui-item item"><span class="content">智慧路燈</span></a><a role="button" href="/content/ebu/tw/product/IOT/IOT_L3/iot-parking/iot-parking-intro.html" class="fui-item item"><span class="content">智慧停車</span></a><a role="button" href="/content/ebu/tw/product/IOT/IOT_L3/iot-track/iot-track-intro.html" class="fui-item item"><span class="content">資產追蹤</span></a><a role="button" href="/content/ebu/tw/sitemap.html" class="fui-item more"><span class="content">更多產品</span><span class="extra"><i class="icon-chevron-right"></i></span></a>
+                    </div>
+                    <div class="MuiGrid-root mb-2 MuiGrid-item MuiGrid-grid-xs-4">
+                      <h6>資安服務</h6><a role="button" href="/content/ebu/tw/product/security/security_product-l31/security-pt/penetration-test-intro.html" class="fui-item item"><span class="content">滲透測試服務</span></a><a role="button" href="/content/ebu/tw/product/security/security_product-l31/security-vulnerability-assessment/vulnerability-assessment-intro.html" class="fui-item item"><span class="content">弱點掃描評估服務</span></a><a role="button" href="/content/ebu/tw/product/security/security_product-l31/security-cdn/security-cdn-intro.html" class="fui-item item"><span class="content">遠傳Akamai CDN服務</span></a><a role="button" href="/content/ebu/tw/product/security/security_product-l31/security-imperva-application/security-imperva-application-intro.html" class="fui-item item"><span class="content">遠傳Imperva Application Security服務</span></a><a role="button" href="/content/ebu/tw/product/security/security_product-l31/security-cloudwaf/cloud-waf-intro.html" class="fui-item item"><span class="content">遠傳雲端網頁應用防火牆服務</span></a><a role="button" href="/content/ebu/tw/sitemap.html" class="fui-item more"><span class="content">更多產品</span><span class="extra"><i class="icon-chevron-right"></i></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-menu-index="3" class="MuiGrid-root menu-body MuiGrid-item MuiGrid-grid-sm-10 MuiGrid-grid-md-10 MuiGrid-grid-lg-8 MuiGrid-grid-xl-10 d-none">
+                <div class="menu-content">
+                  <div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2">
+                    <div class="MuiGrid-root mb-2 MuiGrid-item MuiGrid-grid-xs-4">
+                      <h6>幫助中心</h6><a role="button" href="/ebu/help-center?tab=ebu" class="fui-item item"><span class="content">常見服務</span></a><a role="button" href="/" class="fui-item item"><span class="content">線上問題反應</span></a><a role="button" href="/ebu/help-center?tab=contact" class="fui-item item"><span class="content">聯絡我們</span></a><a role="button" href="/ebu/sitemap#help" class="fui-item more"><span class="content">更多幫助</span><span class="extra"><i class="icon-chevron-right"></i></span></a>
+                    </div>
+                    <div class="MuiGrid-root mb-2 MuiGrid-item MuiGrid-grid-xs-4">
+                      <h6>文件下載</h6><a role="button" href="/ebu/help-center/document" class="fui-item item"><span class="content">產品服務申請書</span></a><a role="button" href="/" class="fui-item item"><span class="content">產品服務費率</span></a><a role="button" href="/" class="fui-item item"><span class="content">企業解決方案手冊</span></a><a role="button" href="/" class="fui-item item"><span class="content">科技白皮書</span></a><a role="button" href="/ebu/sitemap#help" class="fui-item more"><span class="content">更多文件</span><span class="extra"><i class="icon-chevron-right"></i></span></a>
+                    </div>
+                    <div class="MuiGrid-root mb-2 MuiGrid-item MuiGrid-grid-xs-4">
+                      <h6>常見問題</h6><a role="button" href="/" class="fui-item item"><span class="content">遠傳物聯網</span></a><a role="button" href="/" class="fui-item item"><span class="content">雲端運算</span></a><a role="button" href="/" class="fui-item item"><span class="content">主機代管</span></a><a role="button" href="/" class="fui-item item"><span class="content">大寬頻企業光纖</span></a><a role="button" href="/ebu/sitemap#help" class="fui-item more"><span class="content">更多問題</span><span class="extra"><i class="icon-chevron-right"></i></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menu-extra">
+              <div class="section-promotion-5"><a href="/" style="background-image: url(&quot;/resources/ebu/images/sidebar-promotion-demo.jpg&quot;);">
+                  <div class="desktop">
+                    <h3>遠傳企業Office 365 輕享方案</h3>
+                    <h6>最殺的價格、超彈性的付費、完整雲端行動辦公 遠傳一次幫你搞定！</h6>
+                    <div class="promotion-button"><span class="text">了解更多</span></div>
+                  </div>
+                  <div class="mobile">
+                    <h3>遠傳企業Office 365 輕享方案</h3>
+                    <h6>最殺的價格、超彈性的付費、完整雲端行動辦公 遠傳一次幫你搞定！</h6>
+                    <div class="promotion-button"><span class="text">了解更多</span></div>
+                  </div></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <footer class="fui-footer only-desktop">
+        <div class="fui-container">
+          <div space="2" class="MuiGrid-root MuiGrid-container">
+            <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-4">
+              <div>
+                <p class="text-sm phone-promo mb-0">遠傳手機直撥 <em>888</em> 或 <em>123</em><br/></p>
+                <p class="text-sm">MVPN 用戶撥 99888 或 123 (免費)<br/>              市話撥 449-5888 或 449-5123 (市內計費)</p>
+              </div><a href="/content/ebu/tw/help-center/contact-us.html"><span class="text">更多聯絡方式</span><i class="icon-chevron-right"></i></a>
+              <div class="social-links"><a href="https://www.facebook.com/fareastone/" to="https://www.facebook.com/fareastone/" role="button" class="socail-item"><i class="icon-facebook"></i></a><a href="https://www.youtube.com/channel/UCp0ZhOIM9JiiF-7Np3asKbg" to="https://www.youtube.com/channel/UCp0ZhOIM9JiiF-7Np3asKbg" role="button" class="socail-item"><i class="icon-youtube"></i></a><a href="https://www.youtube.com/channel/UCp0ZhOIM9JiiF-7Np3asKbg" to="https://www.youtube.com/channel/UCp0ZhOIM9JiiF-7Np3asKbg" role="button" class="socail-item"><img src="./resources/common/images/aishiteru.png" height="40"/></a></div>
+            </div>
+            <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8">
+              <div space="1" class="MuiGrid-root MuiGrid-container">
+                <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3">
+                  <div class="fui-collapse response-collapse">
+                    <h6 role="button" class="collapse-header mobile-collapse-header">關於</h6>
+                    <div role="menu" tabindex="-1" class="fui-menu mobile-collapse"><a href="https://www.fetnet.net/corporate/index.html" role="button" to="https://www.fetnet.net/corporate/index.html" class="fui-item"><span class="content">關於遠傳</span></a><a href="https://www.fetnet.net/corporate/SocietyManage.html" role="button" to="https://www.fetnet.net/corporate/SocietyManage.html" class="fui-item"><span class="content">企業社會責任</span></a><a href="https://www.fetnet.net/corporate/hr/index.html" role="button" to="https://www.fetnet.net/corporate/hr/index.html" class="fui-item"><span class="content">菁英招募</span></a></div>
+                  </div>
+                </div>
+                <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3">
+                  <div class="fui-collapse response-collapse">
+                    <h6 role="button" class="collapse-header mobile-collapse-header">合作</h6>
+                    <div role="menu" tabindex="-1" class="fui-menu mobile-collapse"><a href="https://www.fetnet.net/online_proposal/home.jsp" role="button" to="https://www.fetnet.net/online_proposal/home.jsp" class="fui-item"><span class="content">合作提案</span></a><a href="https://www.fetnet.net/mediad/" role="button" to="https://www.fetnet.net/mediad/" class="fui-item"><span class="content">數位行銷服務</span></a></div>
+                  </div>
+                </div>
+                <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3">
+                  <div class="fui-collapse response-collapse">
+                    <h6 role="button" class="collapse-header mobile-collapse-header">條款相關</h6>
+                    <div role="menu" tabindex="-1" class="fui-menu mobile-collapse"><a href="https://www.fetnet.net/corporate/FETnetRule.html" role="button" to="https://www.fetnet.net/corporate/FETnetRule.html" class="fui-item"><span class="content">營業規章</span></a><a href="https://cpc.ey.gov.tw/ " role="button" to="https://cpc.ey.gov.tw/ " class="fui-item"><span class="content">行政院消保會</span></a><a href="https://www.fetnet.net/information/privacy.html" role="button" to="https://www.fetnet.net/information/privacy.html" class="fui-item"><span class="content">隱私權政策</span></a><a href="https://www.fetnet.net/information/copyright.html" role="button" to="https://www.fetnet.net/information/copyright.html" class="fui-item"><span class="content">著作權政策</span></a></div>
+                  </div>
+                </div>
+                <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3">
+                  <div class="fui-collapse response-collapse">
+                    <h6 role="button" class="collapse-header mobile-collapse-header">相關網站</h6>
+                    <div role="menu" tabindex="-1" class="fui-menu mobile-collapse"><a href="https://www.issdu.com.tw/ " role="button" to="https://www.issdu.com.tw/ " class="fui-item"><span class="content">數聯資安</span></a><a href="https://www.nextlink.com.tw/" role="button" to="https://www.nextlink.com.tw/" class="fui-item"><span class="content">博弘雲端科技</span></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div space="1" class="MuiGrid-root copyright MuiGrid-container">
+            <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"><a href="/content/ebu/tw/index/micro-business.html"><img src="./resources/common/images/fetnet-footer-logo.png" alt="FetnetLogo" height="30"/></a><span class="text-sm is-text-gray100">遠傳電信版權所有 © Far EasTone<span class="d-none d-md-inline"> Telecommunications Co., Ltd</span></span></div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
