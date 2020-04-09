@@ -40,6 +40,11 @@
         $('#submit').removeClass('disabled');
       }
     });
+    $('.select2-selection__rendered').click(function (event) {
+      // do something…
+      // console.log(event.target)
+      $(event.target).addClass('active');
+    });
     $('#submit').click(function () {//確認送出
     });
   });

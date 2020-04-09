@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+    <g fill="none" fill-rule="evenodd" stroke="#202020" stroke-width="2">
+        <path stroke-linejoin="bevel" d="M2.5 11.011v10.5H9m4 0h6.5v-10.89" transform="translate(4 4)"/>
+        <g>
+            <path stroke-linejoin="bevel" d="M0 7.489L0 6.632 4.086 1.489 17.914 1.489 22 6.632 22 7.489" transform="translate(4 4) translate(0 .511)"/>
+            <g>
+                <path stroke-linejoin="bevel" d="M0 6.5L0 7.5 2.5 10.5 5 7.5" transform="translate(4 4) translate(0 .511) translate(0 .989)"/>
+                <path stroke-linejoin="round" d="M5 7.66L5 6.665 7.087 0.66" transform="translate(4 4) translate(0 .511) translate(0 .989)"/>
+                <path stroke-linejoin="round" d="M15.001 7.66L15.001 6.665 17 0.66" transform="translate(4 4) translate(0 .511) translate(0 .989) matrix(-1 0 0 1 32.001 0)"/>
+                <path stroke-linecap="square" d="M11 7.5L11 1.035" transform="translate(4 4) translate(0 .511) translate(0 .989)"/>
+                <path stroke-linejoin="bevel" d="M5 7.5L8 10.5 11 7.5M11 7.5L14 10.5 17 7.5M17 7.5L19.5 10.5 22 7.5 22 6.5" transform="translate(4 4) translate(0 .511) translate(0 .989)"/>
+            </g>
+            <path stroke-linecap="square" d="M8 20.489L8 15.489 14 15.489 14 20.489" transform="translate(4 4) translate(0 .511)"/>
+        </g>
+    </g>
+</svg>

@@ -29,7 +29,7 @@
             </div>
             <div class="navbar-center"><a id="brand" href="/ebu/index" class="navbar-item brand"><img src="/resources/common/images/fetnet-logo.png" alt=""/></a></div>
             <div class="navbar-right">
-              <button class="navbar-item d-none d-md-inline-block"><img src="./resources/common/images/e-store.svg" width="28"/></button>
+              <button class="navbar-item d-none d-md-inline-block"><img src="../resources/common/images/e-store.svg" width="28"/></button>
               <button id="search-trigger" class="navbar-item"><i class="icon-search"></i></button>
               <div to="/index" class="navbar-item d-none d-md-inline-block">
                 <div class="fui-dropdown is-right is-top">
@@ -315,7 +315,7 @@
       </div>
       <section style="background-image: url(&quot;/resources/e-service/images/cbu-form-banner-1440-x-156.png&quot;);" class="fui-banner is-form">
         <div class="fui-container">
-          <h1>漫遊優惠方案申請</h1>
+          <h1 class="no-break">漫遊優惠方案申請</h1>
         </div>
       </section>
       <div class="fui-nav-tab is-content-1">
@@ -334,6 +334,12 @@
                       <div class="text">7日/15日漫遊優惠</div>
                     </div></a>
                 </div>
+              </div>
+              <div class="fui-select static-selector">
+                <select name="address">
+                  <option value="1" selected="">漫遊上網包</option>
+                  <option value="2">7日/15日漫遊優惠</option>
+                </select>
               </div>
             </div>
           </div>
@@ -524,47 +530,14 @@
         </div>
       </section>
     </main>
-    <footer class="fui-footer">
+    <footer class="fui-footer blank-footer">
       <div class="fui-container">
-        <div space="2" class="MuiGrid-root MuiGrid-container">
-          <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-4">
-            <div>
-              <p class="text-sm phone-promo mb-0">遠傳手機直撥 <em>888</em> 或 <em>123</em><br/></p>
-              <p class="text-sm">MVPN 用戶撥 99888 或 123 (免費)<br/>              市話撥 449-5888 或 449-5123 (市內計費)</p>
-            </div><a href="/content/ebu/tw/help-center/contact-us.html"><span class="text">更多聯絡方式</span><i class="icon-chevron-right"></i></a>
-            <div class="social-links"><a href="https://www.facebook.com/fareastone/" to="https://www.facebook.com/fareastone/" role="button" class="socail-item"><i class="icon-facebook"></i></a><a href="https://www.youtube.com/channel/UCp0ZhOIM9JiiF-7Np3asKbg" to="https://www.youtube.com/channel/UCp0ZhOIM9JiiF-7Np3asKbg" role="button" class="socail-item"><i class="icon-youtube"></i></a><a href="https://www.youtube.com/channel/UCp0ZhOIM9JiiF-7Np3asKbg" to="https://www.youtube.com/channel/UCp0ZhOIM9JiiF-7Np3asKbg" role="button" class="socail-item"><img src="./resources/common/images/aishiteru.png" height="40"/></a></div>
-          </div>
-          <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-8">
-            <div space="1" class="MuiGrid-root MuiGrid-container">
-              <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-3">
-                <div class="fui-collapse response-collapse">
-                  <h6 role="button" class="collapse-header mobile-collapse-header">關於</h6>
-                  <div role="menu" tabindex="-1" class="fui-menu mobile-collapse"><a href="https://www.fetnet.net/corporate/index.html" role="button" to="https://www.fetnet.net/corporate/index.html" class="fui-item"><span class="content">關於遠傳</span></a><a href="https://www.fetnet.net/corporate/SocietyManage.html" role="button" to="https://www.fetnet.net/corporate/SocietyManage.html" class="fui-item"><span class="content">企業社會責任</span></a><a href="https://www.fetnet.net/corporate/hr/index.html" role="button" to="https://www.fetnet.net/corporate/hr/index.html" class="fui-item"><span class="content">菁英招募</span></a></div>
-                </div>
-              </div>
-              <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-3">
-                <div class="fui-collapse response-collapse">
-                  <h6 role="button" class="collapse-header mobile-collapse-header">合作</h6>
-                  <div role="menu" tabindex="-1" class="fui-menu mobile-collapse"><a href="https://www.fetnet.net/online_proposal/home.jsp" role="button" to="https://www.fetnet.net/online_proposal/home.jsp" class="fui-item"><span class="content">合作提案</span></a><a href="https://www.fetnet.net/mediad/" role="button" to="https://www.fetnet.net/mediad/" class="fui-item"><span class="content">數位行銷服務</span></a></div>
-                </div>
-              </div>
-              <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-3">
-                <div class="fui-collapse response-collapse">
-                  <h6 role="button" class="collapse-header mobile-collapse-header">條款相關</h6>
-                  <div role="menu" tabindex="-1" class="fui-menu mobile-collapse"><a href="https://www.fetnet.net/corporate/FETnetRule.html" role="button" to="https://www.fetnet.net/corporate/FETnetRule.html" class="fui-item"><span class="content">營業規章</span></a><a href="https://cpc.ey.gov.tw/ " role="button" to="https://cpc.ey.gov.tw/ " class="fui-item"><span class="content">行政院消保會</span></a><a href="https://www.fetnet.net/information/privacy.html" role="button" to="https://www.fetnet.net/information/privacy.html" class="fui-item"><span class="content">隱私權政策</span></a><a href="https://www.fetnet.net/information/copyright.html" role="button" to="https://www.fetnet.net/information/copyright.html" class="fui-item"><span class="content">著作權政策</span></a></div>
-                </div>
-              </div>
-              <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-3">
-                <div class="fui-collapse response-collapse">
-                  <h6 role="button" class="collapse-header mobile-collapse-header">相關網站</h6>
-                  <div role="menu" tabindex="-1" class="fui-menu mobile-collapse"><a href="https://www.issdu.com.tw/ " role="button" to="https://www.issdu.com.tw/ " class="fui-item"><span class="content">數聯資安</span></a><a href="https://www.nextlink.com.tw/" role="button" to="https://www.nextlink.com.tw/" class="fui-item"><span class="content">博弘雲端科技</span></a></div>
-                </div>
-              </div>
+        <div space="1" class="MuiGrid-root copyright MuiGrid-container">
+          <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12">
+            <div class="footer-fetnet"><a href="/content/ebu/tw/index/micro-business.html"><img src="../resources/common/images/fetnet-footer-logo.png" alt="FetnetLogo" height="30"/></a>
+              <div class="links"><a href=""><small>隱私權條款</small></a><a href=""><small>營業規章</small></a><a href=""><small>聯絡我們</small></a><span class="text-sm is-text-gray100">遠傳電信版權所有 © Far EasTone<span class="d-none d-md-inline"> Telecommunications Co., Ltd</span></span></div>
             </div>
           </div>
-        </div>
-        <div space="1" class="MuiGrid-root copyright MuiGrid-container">
-          <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12"><a href="/content/ebu/tw/index/micro-business.html"><img src="./resources/common/images/fetnet-footer-logo.png" alt="FetnetLogo" height="30"/></a><span class="text-sm is-text-gray100">遠傳電信版權所有 © Far EasTone<span class="d-none d-md-inline"> Telecommunications Co., Ltd</span></span></div>
         </div>
       </div>
     </footer>
