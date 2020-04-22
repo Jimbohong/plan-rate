@@ -52,13 +52,17 @@
 .wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion {
   padding: 0;
   border: 0;
-  background-color: #F1F3F5;
+  background-color: #fff;
+  border: 2px solid #F1F3F5;
+}
+.wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion.open {
+  display: block;
 }
 .wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .open {
   display: none;
 }
 .wrapperPage section article.recommendBox .tabs article.proDetailBox .leftColumn .accordion .mainTitle {
-  background-color: #F1F3F5;
+  background-color: #fff;
   border: 0;
   box-shadow: none;
   padding: 30px;
